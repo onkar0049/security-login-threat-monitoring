@@ -1,0 +1,2192 @@
+[
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 0
+    },
+    "previousHash": "GENESIS",
+    "timestamp": "2026-02-03T18:32:47.751Z",
+    "hash": "76e10eb7fa5ee30869779807041927e9aa7ce4daf8da6fec2ec2fe577abbc337"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 0
+    },
+    "previousHash": "76e10eb7fa5ee30869779807041927e9aa7ce4daf8da6fec2ec2fe577abbc337",
+    "timestamp": "2026-02-03T18:38:25.915Z",
+    "hash": "ee9198aa766ca58562e5f6aad1b2de507e1a92cbecde31b4a7e0c1890926c6f6"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 0
+    },
+    "previousHash": "ee9198aa766ca58562e5f6aad1b2de507e1a92cbecde31b4a7e0c1890926c6f6",
+    "timestamp": "2026-02-03T18:38:27.642Z",
+    "hash": "bc227e61f14d06be9f142371ce9db790b5a7e2fa5a7dede9fab1257948893dd2"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 0
+    },
+    "previousHash": "bc227e61f14d06be9f142371ce9db790b5a7e2fa5a7dede9fab1257948893dd2",
+    "timestamp": "2026-02-03T18:38:28.927Z",
+    "hash": "7442bd675ca26d3fabff640c1429e4f19ef63ba4a95ce5842e529f4a25348509"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 0
+    },
+    "previousHash": "7442bd675ca26d3fabff640c1429e4f19ef63ba4a95ce5842e529f4a25348509",
+    "timestamp": "2026-02-03T18:55:23.973Z",
+    "hash": "541cec58373f7d3e2500b473922fe87ce5f150e7369fe4121fcf1202ce9d00be"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 0
+    },
+    "previousHash": "541cec58373f7d3e2500b473922fe87ce5f150e7369fe4121fcf1202ce9d00be",
+    "timestamp": "2026-02-03T18:55:25.383Z",
+    "hash": "2f5152f4a03becded0404500fa565ae4fa725dfa20cd5cf733d3b5b5b16aae85"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 0
+    },
+    "previousHash": "2f5152f4a03becded0404500fa565ae4fa725dfa20cd5cf733d3b5b5b16aae85",
+    "timestamp": "2026-02-03T18:59:40.369Z",
+    "hash": "a3a8fdd41ebebd88f082e9b1d888d0f00ee7a0667ab2b1b727d1264a3c89d4eb"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 0
+    },
+    "previousHash": "a3a8fdd41ebebd88f082e9b1d888d0f00ee7a0667ab2b1b727d1264a3c89d4eb",
+    "timestamp": "2026-02-03T18:59:41.529Z",
+    "hash": "925dadda7e5d703dc2166f254717711ab082f82842c0e717863b7aaeedbbc65b"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 0
+    },
+    "previousHash": "925dadda7e5d703dc2166f254717711ab082f82842c0e717863b7aaeedbbc65b",
+    "timestamp": "2026-02-03T19:08:16.600Z",
+    "hash": "36c32da5c328236f9b9c4da8b94e0ed2a723e97eedad3ba255639ce695439cd8"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "36c32da5c328236f9b9c4da8b94e0ed2a723e97eedad3ba255639ce695439cd8",
+    "timestamp": "2026-02-03T19:10:24.146Z",
+    "hash": "30e6957786faef5058b44f5ca61eb8937e0d6e3dae066421b98826403b34f2a2"
+  },
+  {
+    "user": "admin",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "30e6957786faef5058b44f5ca61eb8937e0d6e3dae066421b98826403b34f2a2",
+    "timestamp": "2026-02-03T19:10:52.632Z",
+    "hash": "7bb3f1ac9394e863d346fa7d4cc06d26bb210c6ece796c2b39f33f0e39d8358f"
+  },
+  {
+    "user": "admin",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "7bb3f1ac9394e863d346fa7d4cc06d26bb210c6ece796c2b39f33f0e39d8358f",
+    "timestamp": "2026-02-03T19:10:53.572Z",
+    "hash": "9c81922c3abba3811dcc140fca93331af65495b09bf787122ab4c277e4ae8c44"
+  },
+  {
+    "user": "admin",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "9c81922c3abba3811dcc140fca93331af65495b09bf787122ab4c277e4ae8c44",
+    "timestamp": "2026-02-03T19:10:55.046Z",
+    "hash": "ae6081ab5e9dcc56153a364d43c67ca06b81534d680cbe673cf717515ee56dc4"
+  },
+  {
+    "user": "admin",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "ae6081ab5e9dcc56153a364d43c67ca06b81534d680cbe673cf717515ee56dc4",
+    "timestamp": "2026-02-03T19:11:03.241Z",
+    "hash": "1d5b7fc9edba83a9c37d0497f5a36f7b16d29e51f9fc0319f7cb702335110466"
+  },
+  {
+    "user": "admin",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "1d5b7fc9edba83a9c37d0497f5a36f7b16d29e51f9fc0319f7cb702335110466",
+    "timestamp": "2026-02-03T19:11:03.680Z",
+    "hash": "6203637d8c74e62eb083296881f52a1f475d658b08bfc6910551125e2045718d"
+  },
+  {
+    "user": "admin",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "6203637d8c74e62eb083296881f52a1f475d658b08bfc6910551125e2045718d",
+    "timestamp": "2026-02-03T19:11:03.852Z",
+    "hash": "d9c11cc87916051dc73cf90183e82c1f222e006990321ab017226d64e95a4a23"
+  },
+  {
+    "user": "admin",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "d9c11cc87916051dc73cf90183e82c1f222e006990321ab017226d64e95a4a23",
+    "timestamp": "2026-02-03T19:11:04.017Z",
+    "hash": "162195c5c72fdbf384f766bcd8ae3bbfc32094e1112328e83dba2005367f7385"
+  },
+  {
+    "user": "admin",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "162195c5c72fdbf384f766bcd8ae3bbfc32094e1112328e83dba2005367f7385",
+    "timestamp": "2026-02-03T19:11:06.636Z",
+    "hash": "82b31b363869d1c23b82e4389edc27efb269dd7b1169e5dd822f285b8d0f6f6c"
+  },
+  {
+    "user": "admin",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "82b31b363869d1c23b82e4389edc27efb269dd7b1169e5dd822f285b8d0f6f6c",
+    "timestamp": "2026-02-03T19:11:06.816Z",
+    "hash": "7d91efebdaf85f37d95198d235e149d9bf4485d0a06a87bc970df826225ddd76"
+  },
+  {
+    "user": "admin",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "7d91efebdaf85f37d95198d235e149d9bf4485d0a06a87bc970df826225ddd76",
+    "timestamp": "2026-02-03T19:11:06.956Z",
+    "hash": "e568e35f6924559ad1418f6d4bce2fffa25a0b835a548bbfbbc0fc1307922d75"
+  },
+  {
+    "user": "admin",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "e568e35f6924559ad1418f6d4bce2fffa25a0b835a548bbfbbc0fc1307922d75",
+    "timestamp": "2026-02-03T19:11:21.968Z",
+    "hash": "b482387420421016ab32bfb0b1d88ac93d6a30b813311d3d40aaa5151c0e5ae5"
+  },
+  {
+    "user": "admin",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "b482387420421016ab32bfb0b1d88ac93d6a30b813311d3d40aaa5151c0e5ae5",
+    "timestamp": "2026-02-03T19:14:30.061Z",
+    "hash": "33514ace69176d72b1619a5ce7b2dd67feeba8ccb475571de6777e34a62f1ced"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 0
+    },
+    "previousHash": "33514ace69176d72b1619a5ce7b2dd67feeba8ccb475571de6777e34a62f1ced",
+    "timestamp": "2026-02-03T19:16:58.196Z",
+    "hash": "a987bc671346c0343680a799757389d68312481c151892da1d58e5cdf925cd4a"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 0
+    },
+    "previousHash": "a987bc671346c0343680a799757389d68312481c151892da1d58e5cdf925cd4a",
+    "timestamp": "2026-02-03T19:16:59.089Z",
+    "hash": "e387850b54952e60d2e0f93239461014ecb942e9b16de05bc9560dcf9bbe24f9"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "e387850b54952e60d2e0f93239461014ecb942e9b16de05bc9560dcf9bbe24f9",
+    "timestamp": "2026-02-03T19:17:20.019Z",
+    "hash": "53d9db2bc49536be5410a37a14968839fe131240bd61319729a583d90152c3ed"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 0
+    },
+    "previousHash": "53d9db2bc49536be5410a37a14968839fe131240bd61319729a583d90152c3ed",
+    "timestamp": "2026-02-03T19:25:12.484Z",
+    "hash": "e0363f43fb8860d5ddd7f85572a90e57dd299d1d0899b3096ff2baafe49ca831"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "e0363f43fb8860d5ddd7f85572a90e57dd299d1d0899b3096ff2baafe49ca831",
+    "timestamp": "2026-02-03T19:25:42.643Z",
+    "hash": "98c526542d6fa732e7f431613dea840c3ac5cff4e85520cf6a68ac5d0e7507c1"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "98c526542d6fa732e7f431613dea840c3ac5cff4e85520cf6a68ac5d0e7507c1",
+    "timestamp": "2026-02-03T19:25:43.813Z",
+    "hash": "302731d4769b439b7072c24ebcac942050133127b2ce33592e45da948abd7472"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "302731d4769b439b7072c24ebcac942050133127b2ce33592e45da948abd7472",
+    "timestamp": "2026-02-03T19:26:05.206Z",
+    "hash": "8dcb4222748f8e09fb3a97f2f14879f0593dcf66aa77513392fea8788c941808"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "8dcb4222748f8e09fb3a97f2f14879f0593dcf66aa77513392fea8788c941808",
+    "timestamp": "2026-02-03T19:26:18.570Z",
+    "hash": "4c79f3239dbe339d8718c490395c7a87a650972ebeb7ebd92a8106060e5c43e6"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "4c79f3239dbe339d8718c490395c7a87a650972ebeb7ebd92a8106060e5c43e6",
+    "timestamp": "2026-02-03T19:26:22.749Z",
+    "hash": "9254c272dc64a829089734d6c7c1e590c0695a92b144e4a63a07d5c7d105eebe"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "9254c272dc64a829089734d6c7c1e590c0695a92b144e4a63a07d5c7d105eebe",
+    "timestamp": "2026-02-03T19:26:23.882Z",
+    "hash": "b780d02918c06c200cebfcd7be9430670a072b6ada325a3769862b57360ab5fe"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "b780d02918c06c200cebfcd7be9430670a072b6ada325a3769862b57360ab5fe",
+    "timestamp": "2026-02-03T19:26:24.538Z",
+    "hash": "0d16ddf0e69d9ee9f448c1294840b6699475379e83d34f44985c16faec2d3553"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "0d16ddf0e69d9ee9f448c1294840b6699475379e83d34f44985c16faec2d3553",
+    "timestamp": "2026-02-03T19:26:26.178Z",
+    "hash": "0e5c21c32bcf15781529df6e79a2e8cf68294a59b26f0342d85c513388330ff0"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "0e5c21c32bcf15781529df6e79a2e8cf68294a59b26f0342d85c513388330ff0",
+    "timestamp": "2026-02-03T19:26:30.058Z",
+    "hash": "5cb377858ce9b627c39e14cbb7ba6f477aa6b6c52c5f4eeca9e7934691d2b1bf"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "5cb377858ce9b627c39e14cbb7ba6f477aa6b6c52c5f4eeca9e7934691d2b1bf",
+    "timestamp": "2026-02-03T19:26:31.492Z",
+    "hash": "d7e2af9b12bfb4d8acf4c7bcfbc13386a331f1b8cae2beb8b20c83417f3a3ac7"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "d7e2af9b12bfb4d8acf4c7bcfbc13386a331f1b8cae2beb8b20c83417f3a3ac7",
+    "timestamp": "2026-02-03T19:26:32.974Z",
+    "hash": "9d54fcc9b4fba0a78333a827b8fb8aced934bb22debbceeb7a797bf3286cd390"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "9d54fcc9b4fba0a78333a827b8fb8aced934bb22debbceeb7a797bf3286cd390",
+    "timestamp": "2026-02-03T19:26:35.787Z",
+    "hash": "dfb7f41a82680064879d1996576f615676a7b8b7f83de92ca873283efd7cc11b"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "dfb7f41a82680064879d1996576f615676a7b8b7f83de92ca873283efd7cc11b",
+    "timestamp": "2026-02-03T19:26:38.442Z",
+    "hash": "f1e2946da3809a06e948cf0e801f8377ed84f1c5e12d8723f581eb8e4f445cf2"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "f1e2946da3809a06e948cf0e801f8377ed84f1c5e12d8723f581eb8e4f445cf2",
+    "timestamp": "2026-02-03T19:26:38.890Z",
+    "hash": "72a146c5b075f08c3e9f69cf54b6c64d75b8b9f3bc4b8c3720cdcdc70a2f4586"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "72a146c5b075f08c3e9f69cf54b6c64d75b8b9f3bc4b8c3720cdcdc70a2f4586",
+    "timestamp": "2026-02-03T19:26:40.681Z",
+    "hash": "fc3090d6b25455eb954643bef8fc8a3fdbb50f9ccd231e33f51c5903e8d30407"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 0
+    },
+    "previousHash": "fc3090d6b25455eb954643bef8fc8a3fdbb50f9ccd231e33f51c5903e8d30407",
+    "timestamp": "2026-02-03T19:26:42.008Z",
+    "hash": "3f2c8babf433bb9b7e010c8c7f2f3e68fa263b8d7311b750a87d6b4119fb14a9"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 1
+    },
+    "previousHash": "3f2c8babf433bb9b7e010c8c7f2f3e68fa263b8d7311b750a87d6b4119fb14a9",
+    "timestamp": "2026-02-03T19:43:02.090Z",
+    "hash": "c389cf3d72047e19e2da1acc5509bc8ef62c6c2fdcaae37f67b774204ac073bd"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 1
+    },
+    "previousHash": "c389cf3d72047e19e2da1acc5509bc8ef62c6c2fdcaae37f67b774204ac073bd",
+    "timestamp": "2026-02-03T19:43:02.581Z",
+    "hash": "1111b2fff732e7ace9c7991154e30a3b81098ae3ee37c751f11a06658553e1f2"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "1111b2fff732e7ace9c7991154e30a3b81098ae3ee37c751f11a06658553e1f2",
+    "timestamp": "2026-02-03T19:45:29.249Z",
+    "hash": "6570397ae41f48738d5118a13bbcf0d4dfaf1ab2ef5aea0bdda52e70eb20351c"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "6570397ae41f48738d5118a13bbcf0d4dfaf1ab2ef5aea0bdda52e70eb20351c",
+    "timestamp": "2026-02-03T19:45:30.181Z",
+    "hash": "5a2dcaca7b7aef05bf8569b7e1b4bdbd2d764de51cfbb7e042023e9820aa60fe"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "5a2dcaca7b7aef05bf8569b7e1b4bdbd2d764de51cfbb7e042023e9820aa60fe",
+    "timestamp": "2026-02-03T19:45:31.140Z",
+    "hash": "27570252064e8f3706080e5a22a86706ccc2312b8ab197125a7165c857208019"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "27570252064e8f3706080e5a22a86706ccc2312b8ab197125a7165c857208019",
+    "timestamp": "2026-02-03T19:45:33.518Z",
+    "hash": "823c7e8e94f1de835a8af64e4d5287cc40770b9d300672c176b5b55d27515ca6"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "823c7e8e94f1de835a8af64e4d5287cc40770b9d300672c176b5b55d27515ca6",
+    "timestamp": "2026-02-03T19:45:34.273Z",
+    "hash": "d0ad1e1f0878192567f156729f1fe0f64944e49c21dd4f3b1ba2c16f3e7fbb6a"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "d0ad1e1f0878192567f156729f1fe0f64944e49c21dd4f3b1ba2c16f3e7fbb6a",
+    "timestamp": "2026-02-03T19:46:52.327Z",
+    "hash": "1243a09df7cf43c2ae4f7360300318621fadfcc7c0cd946e8d13b56873fff503"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "1243a09df7cf43c2ae4f7360300318621fadfcc7c0cd946e8d13b56873fff503",
+    "timestamp": "2026-02-03T19:46:53.191Z",
+    "hash": "307578e31f1c2bf686716df28aa6041218649dcc12868e3f4d4dcfe5de99f726"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "307578e31f1c2bf686716df28aa6041218649dcc12868e3f4d4dcfe5de99f726",
+    "timestamp": "2026-02-03T19:46:53.871Z",
+    "hash": "290dbf28c1aa4bbebcbd53db0880bc5252bbfdf876f93ac6baf013097720e341"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "290dbf28c1aa4bbebcbd53db0880bc5252bbfdf876f93ac6baf013097720e341",
+    "timestamp": "2026-02-03T19:47:31.507Z",
+    "hash": "cb25b39a27ee97c9045d59bed3da21754be1e612eb78b498ec35b8087dc13c18"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "cb25b39a27ee97c9045d59bed3da21754be1e612eb78b498ec35b8087dc13c18",
+    "timestamp": "2026-02-03T19:47:32.497Z",
+    "hash": "974f541064a3a66f70807c555055372df06f44dbfe31459cdbd3abc17c9c7331"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "974f541064a3a66f70807c555055372df06f44dbfe31459cdbd3abc17c9c7331",
+    "timestamp": "2026-02-03T19:47:43.883Z",
+    "hash": "7246d4e48e4cc9f70b7999862ade9ced79dabd4db451bf1195b6d89682effda0"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "7246d4e48e4cc9f70b7999862ade9ced79dabd4db451bf1195b6d89682effda0",
+    "timestamp": "2026-02-03T19:47:44.591Z",
+    "hash": "6480dce29ff4d76351aeff932fe85fa456740d1153b881b83b0b5b638ed6cf7e"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "6480dce29ff4d76351aeff932fe85fa456740d1153b881b83b0b5b638ed6cf7e",
+    "timestamp": "2026-02-03T19:47:45.357Z",
+    "hash": "1924a2b99bf45c0d9fc5c76a48af2b0131877982a63458c5c5a737bf65e452fc"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "1924a2b99bf45c0d9fc5c76a48af2b0131877982a63458c5c5a737bf65e452fc",
+    "timestamp": "2026-02-03T19:47:45.540Z",
+    "hash": "8d7b576e6777d45e7510c5e2e7d28553b17167daea30206e8ef5c140cfa24fee"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "8d7b576e6777d45e7510c5e2e7d28553b17167daea30206e8ef5c140cfa24fee",
+    "timestamp": "2026-02-03T19:47:45.770Z",
+    "hash": "df304df7cf478e77227b6954638de9a6c057257fa12f7e5e50935a42e5db9d8b"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "df304df7cf478e77227b6954638de9a6c057257fa12f7e5e50935a42e5db9d8b",
+    "timestamp": "2026-02-03T19:47:46.888Z",
+    "hash": "31964367b77493cf87d62e8098b8dc8014723cdd5f5c67b7a38ff91a384770ce"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "31964367b77493cf87d62e8098b8dc8014723cdd5f5c67b7a38ff91a384770ce",
+    "timestamp": "2026-02-03T19:47:49.516Z",
+    "hash": "caefecf6e7bfaaded65d74ed0705c44834ff615ac635d358e7d18942f2b374dd"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "caefecf6e7bfaaded65d74ed0705c44834ff615ac635d358e7d18942f2b374dd",
+    "timestamp": "2026-02-03T19:48:08.017Z",
+    "hash": "47043c619881b99164a81413283ca77ac6b59d8b3627f6b8540243c0fec607d3"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "47043c619881b99164a81413283ca77ac6b59d8b3627f6b8540243c0fec607d3",
+    "timestamp": "2026-02-03T19:48:08.752Z",
+    "hash": "3d5c27a0cc5b9641a7d3af5ddeff487599f0363ed8fd1909313b60a101d7177a"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "3d5c27a0cc5b9641a7d3af5ddeff487599f0363ed8fd1909313b60a101d7177a",
+    "timestamp": "2026-02-03T19:48:24.351Z",
+    "hash": "d8ee17aebb3c9649a052374c592d7b94e2fbdf4d541b8f918962915c065f6f5b"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "d8ee17aebb3c9649a052374c592d7b94e2fbdf4d541b8f918962915c065f6f5b",
+    "timestamp": "2026-02-03T19:48:38.743Z",
+    "hash": "f9fac5078d1199a008a753c8e1d3ce9c5d77839a30bffe9fb175bb01fdfdc42c"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "f9fac5078d1199a008a753c8e1d3ce9c5d77839a30bffe9fb175bb01fdfdc42c",
+    "timestamp": "2026-02-03T19:48:54.193Z",
+    "hash": "114751be4cade053ab08442c2bc761f10269e3ac51a5d0d332632356a02b3e56"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "114751be4cade053ab08442c2bc761f10269e3ac51a5d0d332632356a02b3e56",
+    "timestamp": "2026-02-03T19:49:01.604Z",
+    "hash": "de2c2579bd95bcde7686a4c1c94e9f88f32f4d1ed919767ceb94527c9c3f6941"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "de2c2579bd95bcde7686a4c1c94e9f88f32f4d1ed919767ceb94527c9c3f6941",
+    "timestamp": "2026-02-03T19:49:02.800Z",
+    "hash": "eb01af8d81abbb40c1c0717f135807fda5231423ce40f273f9d2753407e0e734"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 1
+    },
+    "previousHash": "eb01af8d81abbb40c1c0717f135807fda5231423ce40f273f9d2753407e0e734",
+    "timestamp": "2026-02-03T19:49:42.883Z",
+    "hash": "378d5881b039ad007b0ac4e4fff53d14f063851e1ce16c834dcc20424d0a5b55"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "378d5881b039ad007b0ac4e4fff53d14f063851e1ce16c834dcc20424d0a5b55",
+    "timestamp": "2026-02-03T19:50:50.960Z",
+    "hash": "cb2364fceff154e6ba3a0977dea314dabcf4d421d4ff75b2845c07b3a0adddf4"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "cb2364fceff154e6ba3a0977dea314dabcf4d421d4ff75b2845c07b3a0adddf4",
+    "timestamp": "2026-02-03T19:50:52.173Z",
+    "hash": "0ed63c39cffeff81d8e8e97ed15f9f0e779a33d78c692ba552ab7cab67ff2c60"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "0ed63c39cffeff81d8e8e97ed15f9f0e779a33d78c692ba552ab7cab67ff2c60",
+    "timestamp": "2026-02-03T19:52:08.625Z",
+    "hash": "3cba31c2072aadf3bec36ded24a6873e1a19f76fe13f4013ccddd744efd9825f"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 1
+    },
+    "previousHash": "3cba31c2072aadf3bec36ded24a6873e1a19f76fe13f4013ccddd744efd9825f",
+    "timestamp": "2026-02-03T19:55:13.867Z",
+    "hash": "5af4d55d57dd771c9ca62ed72afcaf8b2499af7d192d75ae83e0b8bc1a180363"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "5af4d55d57dd771c9ca62ed72afcaf8b2499af7d192d75ae83e0b8bc1a180363",
+    "timestamp": "2026-02-03T19:55:42.556Z",
+    "hash": "ae5ea73763dcb2c9f4872e07753e440050c1a7465bd534b4d78439da72c73112"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "ae5ea73763dcb2c9f4872e07753e440050c1a7465bd534b4d78439da72c73112",
+    "timestamp": "2026-02-03T19:55:42.914Z",
+    "hash": "b2d7fba75d764f8dc8607f8fad49448343806ea39695f1dc2d72f8aff433a904"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "b2d7fba75d764f8dc8607f8fad49448343806ea39695f1dc2d72f8aff433a904",
+    "timestamp": "2026-02-03T19:55:43.935Z",
+    "hash": "ee6d6def000f1af424086b05eef4a6b9caa03bee0422d0456116cf3696f52ce7"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "ee6d6def000f1af424086b05eef4a6b9caa03bee0422d0456116cf3696f52ce7",
+    "timestamp": "2026-02-03T19:55:44.409Z",
+    "hash": "5965111c0a82d59890ed70e769cf5cdec15ecda40f1db87bafdb7858e3974ce1"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "5965111c0a82d59890ed70e769cf5cdec15ecda40f1db87bafdb7858e3974ce1",
+    "timestamp": "2026-02-03T19:55:46.324Z",
+    "hash": "6762586a74f65d67acc1af590022d2cd35967730ae0135c32bd0c72fdd404111"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "6762586a74f65d67acc1af590022d2cd35967730ae0135c32bd0c72fdd404111",
+    "timestamp": "2026-02-03T19:55:46.799Z",
+    "hash": "ef3013a539201bf616ff7193998fe058e3a1be065019858e0f83ba30a3d6adfc"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "ef3013a539201bf616ff7193998fe058e3a1be065019858e0f83ba30a3d6adfc",
+    "timestamp": "2026-02-03T19:56:01.273Z",
+    "hash": "4d5583238ff0b317d00eaebf59a2b5a9869106ed76157dfa65830041f3bd65b4"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "4d5583238ff0b317d00eaebf59a2b5a9869106ed76157dfa65830041f3bd65b4",
+    "timestamp": "2026-02-03T19:56:16.792Z",
+    "hash": "5632da18c85e8e365ffd9b3c01d1b9a49f43435c8de300be6a9af0b48ac2acc5"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "5632da18c85e8e365ffd9b3c01d1b9a49f43435c8de300be6a9af0b48ac2acc5",
+    "timestamp": "2026-02-03T19:56:22.514Z",
+    "hash": "304cad25a095765a71b2a2bed014c76f5b3af1759e7cd91156b09f1b9e380e26"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "304cad25a095765a71b2a2bed014c76f5b3af1759e7cd91156b09f1b9e380e26",
+    "timestamp": "2026-02-03T19:56:23.266Z",
+    "hash": "6b410c3cda3e3bb748b4aff58473ff8295ad5a60f3c7c59614ccd4555c602c66"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "6b410c3cda3e3bb748b4aff58473ff8295ad5a60f3c7c59614ccd4555c602c66",
+    "timestamp": "2026-02-03T19:56:42.301Z",
+    "hash": "aa537fd978e8f430c0f46111ac055576824d8f6f1162aa18c11e1a802498bd13"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "aa537fd978e8f430c0f46111ac055576824d8f6f1162aa18c11e1a802498bd13",
+    "timestamp": "2026-02-03T19:56:44.173Z",
+    "hash": "19abe21aa1d4cbefc4e0969f4898306f5e3a173d583855b096d6b17bc7bc56d6"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "19abe21aa1d4cbefc4e0969f4898306f5e3a173d583855b096d6b17bc7bc56d6",
+    "timestamp": "2026-02-03T19:59:22.464Z",
+    "hash": "438fda3c7669e8038d8fb2306cf1e687752197e37a07202e9efdfe5b3d0f47b6"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "438fda3c7669e8038d8fb2306cf1e687752197e37a07202e9efdfe5b3d0f47b6",
+    "timestamp": "2026-02-03T19:59:23.508Z",
+    "hash": "be1c65fc2d107d68ce7352c1b7fb8398b9ff6c8e0c08a535ef204b6ab2d414c9"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "be1c65fc2d107d68ce7352c1b7fb8398b9ff6c8e0c08a535ef204b6ab2d414c9",
+    "timestamp": "2026-02-03T19:59:34.114Z",
+    "hash": "787bdac329b0cb25821e37990f154c08acbc7cca8e95e22cdb1b82b44d08efb1"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "787bdac329b0cb25821e37990f154c08acbc7cca8e95e22cdb1b82b44d08efb1",
+    "timestamp": "2026-02-03T19:59:35.011Z",
+    "hash": "43f18af95e391c7f748c719dde50305288931f325821093fda9954d3473ea7ff"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "43f18af95e391c7f748c719dde50305288931f325821093fda9954d3473ea7ff",
+    "timestamp": "2026-02-03T19:59:38.460Z",
+    "hash": "94f2e2c032380226945d2f7a7468534d7bf30f3f9e13fae21f74a53b21eaf54e"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "94f2e2c032380226945d2f7a7468534d7bf30f3f9e13fae21f74a53b21eaf54e",
+    "timestamp": "2026-02-03T19:59:57.488Z",
+    "hash": "d727f128e724d07bddf4f3904da28558b957f4abcbc485f6d825ecfadbfa7a09"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 9
+    },
+    "previousHash": "d727f128e724d07bddf4f3904da28558b957f4abcbc485f6d825ecfadbfa7a09",
+    "timestamp": "2026-02-04T04:18:55.846Z",
+    "hash": "8ff46b1fd0617a9b132cd789832a2b115eee7b318d3f19b3105d40834cf0f748"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 9
+    },
+    "previousHash": "8ff46b1fd0617a9b132cd789832a2b115eee7b318d3f19b3105d40834cf0f748",
+    "timestamp": "2026-02-04T04:18:57.518Z",
+    "hash": "af420e765bb3a9db9cf1041cc27ae11fa7b9136b1fb8720d798ddbea42bf0038"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 9
+    },
+    "previousHash": "af420e765bb3a9db9cf1041cc27ae11fa7b9136b1fb8720d798ddbea42bf0038",
+    "timestamp": "2026-02-04T04:19:41.895Z",
+    "hash": "f30e69a277e42e5d8e9178929d1f076d49e275d3e7a4f64e7567a00095114c14"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 9
+    },
+    "previousHash": "f30e69a277e42e5d8e9178929d1f076d49e275d3e7a4f64e7567a00095114c14",
+    "timestamp": "2026-02-04T04:19:46.293Z",
+    "hash": "c3e3c99e6cf826bc18aafef8c1b6f667372145db5ef8b1d89b833a07ea11a79e"
+  },
+  {
+    "user": "user",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 9
+    },
+    "previousHash": "c3e3c99e6cf826bc18aafef8c1b6f667372145db5ef8b1d89b833a07ea11a79e",
+    "timestamp": "2026-02-04T04:20:15.400Z",
+    "hash": "ea0392c29e39022ad91cfcdbc8dc3b1368c2697e73ea20de668ac4f18e8aec76"
+  },
+  {
+    "user": "user",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 9
+    },
+    "previousHash": "ea0392c29e39022ad91cfcdbc8dc3b1368c2697e73ea20de668ac4f18e8aec76",
+    "timestamp": "2026-02-04T04:20:16.456Z",
+    "hash": "e007c575ae7e3c7c1fbff1e1832a23eb24b73a13a89b8467c1c5e49b3382f6cf"
+  },
+  {
+    "user": "user",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 9
+    },
+    "previousHash": "e007c575ae7e3c7c1fbff1e1832a23eb24b73a13a89b8467c1c5e49b3382f6cf",
+    "timestamp": "2026-02-04T04:20:17.603Z",
+    "hash": "fdae87d553067f40b3781e60acf278e4b9326deaca59a38d39e5f555baa43fd1"
+  },
+  {
+    "user": "user",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 9
+    },
+    "previousHash": "fdae87d553067f40b3781e60acf278e4b9326deaca59a38d39e5f555baa43fd1",
+    "timestamp": "2026-02-04T04:20:17.767Z",
+    "hash": "a0432efbc7df36dc44de35e0cb237eb1b7673e5a9757185a4e714cfecef5d4b2"
+  },
+  {
+    "user": "user",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 9
+    },
+    "previousHash": "a0432efbc7df36dc44de35e0cb237eb1b7673e5a9757185a4e714cfecef5d4b2",
+    "timestamp": "2026-02-04T04:20:17.975Z",
+    "hash": "3a1cdbf4d73f3cbfd40288dade31ec397ac38d10d966acce8bd4c7c137e10cbd"
+  },
+  {
+    "user": "user",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 9
+    },
+    "previousHash": "3a1cdbf4d73f3cbfd40288dade31ec397ac38d10d966acce8bd4c7c137e10cbd",
+    "timestamp": "2026-02-04T04:20:19.879Z",
+    "hash": "f46cf7490a78b8182efc9ce0353b78654dbb306e4159b2753fc54e0b9ae4aa6b"
+  },
+  {
+    "user": "user",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 9
+    },
+    "previousHash": "f46cf7490a78b8182efc9ce0353b78654dbb306e4159b2753fc54e0b9ae4aa6b",
+    "timestamp": "2026-02-04T04:20:20.068Z",
+    "hash": "fcd3ab0986fb2ccc15d0a0a9895ff3150e908477443f2c79d79d97d0d5a0fbaa"
+  },
+  {
+    "user": "user",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 9
+    },
+    "previousHash": "fcd3ab0986fb2ccc15d0a0a9895ff3150e908477443f2c79d79d97d0d5a0fbaa",
+    "timestamp": "2026-02-04T04:20:20.286Z",
+    "hash": "a8d527def2c845d5e0f9de07a145cacf394d1e9962d80dccf3eb3411a3b2f8a3"
+  },
+  {
+    "user": "user",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 9
+    },
+    "previousHash": "a8d527def2c845d5e0f9de07a145cacf394d1e9962d80dccf3eb3411a3b2f8a3",
+    "timestamp": "2026-02-04T04:20:31.095Z",
+    "hash": "0157fa617caa71d37027c65ca74639c1ba39b38602c41a7987ff0a20f978db77"
+  },
+  {
+    "user": "user",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 9
+    },
+    "previousHash": "0157fa617caa71d37027c65ca74639c1ba39b38602c41a7987ff0a20f978db77",
+    "timestamp": "2026-02-04T04:20:32.105Z",
+    "hash": "2ae48cc1056a4cf9ec72a9589b3af30a9fa9a5ad4505a6618ce39bb096385bf9"
+  },
+  {
+    "user": "user",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 11
+    },
+    "previousHash": "2ae48cc1056a4cf9ec72a9589b3af30a9fa9a5ad4505a6618ce39bb096385bf9",
+    "timestamp": "2026-02-04T05:46:58.186Z",
+    "hash": "57306a7501b68fe3277d548cc8601b65ec7e7fa8ec198bfb6ac0094397ad168e"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 12
+    },
+    "previousHash": "57306a7501b68fe3277d548cc8601b65ec7e7fa8ec198bfb6ac0094397ad168e",
+    "timestamp": "2026-02-04T06:37:08.962Z",
+    "hash": "8a7b2f99c3688ac43a8a480f7a3c44f7783ff44dd2770e274e0e915a0421e00b"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 12
+    },
+    "previousHash": "8a7b2f99c3688ac43a8a480f7a3c44f7783ff44dd2770e274e0e915a0421e00b",
+    "timestamp": "2026-02-04T06:37:10.219Z",
+    "hash": "6f7d3b11384f44aa49b91097bb5ef62cfd62bccaa9964b4fd603324e43bfb631"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 12
+    },
+    "previousHash": "6f7d3b11384f44aa49b91097bb5ef62cfd62bccaa9964b4fd603324e43bfb631",
+    "timestamp": "2026-02-04T06:37:37.102Z",
+    "hash": "91935100a360a4b8d14b9db4cd17600390c1201b4cf2bccfc2e5c2c90a1f4a7d"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 12
+    },
+    "previousHash": "91935100a360a4b8d14b9db4cd17600390c1201b4cf2bccfc2e5c2c90a1f4a7d",
+    "timestamp": "2026-02-04T06:37:38.469Z",
+    "hash": "d2753815bdea425ed4a02657db7ed6080adcb0c837b43ca1a0ca89e7358cf4b5"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 12
+    },
+    "previousHash": "d2753815bdea425ed4a02657db7ed6080adcb0c837b43ca1a0ca89e7358cf4b5",
+    "timestamp": "2026-02-04T06:38:38.551Z",
+    "hash": "e356326ca37855e84155bc212139742fce3693d8117c43841eda8644a3f9bd96"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 12
+    },
+    "previousHash": "e356326ca37855e84155bc212139742fce3693d8117c43841eda8644a3f9bd96",
+    "timestamp": "2026-02-04T06:43:28.906Z",
+    "hash": "7889f1a47c523cb14d616be136e298dcdbfceca433b01287926c0239560d4be3"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 12
+    },
+    "previousHash": "7889f1a47c523cb14d616be136e298dcdbfceca433b01287926c0239560d4be3",
+    "timestamp": "2026-02-04T06:46:53.580Z",
+    "hash": "1a02596f9dcb4bfbb4d306dc6fd1a7941ddfa69a2ea11d45f5e941e94d44e966"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 13
+    },
+    "previousHash": "1a02596f9dcb4bfbb4d306dc6fd1a7941ddfa69a2ea11d45f5e941e94d44e966",
+    "timestamp": "2026-02-05T07:58:14.043Z",
+    "hash": "25d57c70460462e95b95ba425b6d884b634869eadf71c87ef6cd0dd6dc7a51ec"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "25d57c70460462e95b95ba425b6d884b634869eadf71c87ef6cd0dd6dc7a51ec",
+    "timestamp": "2026-02-05T08:03:29.464Z",
+    "hash": "9e9547d383a336b7d5fd1b54395c104bf311d1ff7c28143ecaf4684c7f0ba716"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "9e9547d383a336b7d5fd1b54395c104bf311d1ff7c28143ecaf4684c7f0ba716",
+    "timestamp": "2026-02-05T08:03:33.995Z",
+    "hash": "a7fe237312ed879d270d5de1bde2308beaffbb192f45d4661ea05c5243eee488"
+  },
+  {
+    "user": "user",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "a7fe237312ed879d270d5de1bde2308beaffbb192f45d4661ea05c5243eee488",
+    "timestamp": "2026-02-05T08:05:46.550Z",
+    "hash": "38e9d3876b3456081b0f5274926e24ece79a6573ac893e485cd9c9a5fe713497"
+  },
+  {
+    "user": "user",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "38e9d3876b3456081b0f5274926e24ece79a6573ac893e485cd9c9a5fe713497",
+    "timestamp": "2026-02-05T08:07:58.655Z",
+    "hash": "df410af7b7fcef447535bcea6b1255d025cf77cd3ce1bed8db5b4d6170848f93"
+  },
+  {
+    "user": "user",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "df410af7b7fcef447535bcea6b1255d025cf77cd3ce1bed8db5b4d6170848f93",
+    "timestamp": "2026-02-05T08:08:46.716Z",
+    "hash": "691e40b019af33d069b63cec793e8531b7d9f6906b2dbd1e46eef036e277a966"
+  },
+  {
+    "user": "user",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "691e40b019af33d069b63cec793e8531b7d9f6906b2dbd1e46eef036e277a966",
+    "timestamp": "2026-02-05T08:08:49.579Z",
+    "hash": "6dc5837b9d640d433723dae034cfb75553d901dc419db0ae3a3deab375429e3c"
+  },
+  {
+    "user": "user",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "user",
+      "resource": "user",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "6dc5837b9d640d433723dae034cfb75553d901dc419db0ae3a3deab375429e3c",
+    "timestamp": "2026-02-05T08:09:02.010Z",
+    "hash": "17b5598c0e79b3eb4dc6294f67e5ec7128002a099cb185b41d2009a7b436a6ef"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "17b5598c0e79b3eb4dc6294f67e5ec7128002a099cb185b41d2009a7b436a6ef",
+    "timestamp": "2026-02-05T08:09:09.896Z",
+    "hash": "a95fc6c8ac414640d14549bfa48ee00734a312633bdaef9fa3e642fe75e5dc93"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "a95fc6c8ac414640d14549bfa48ee00734a312633bdaef9fa3e642fe75e5dc93",
+    "timestamp": "2026-02-05T08:09:11.466Z",
+    "hash": "913380a47a67a58dd16d13d650ff83187fa170eab8219d7f6294bcbfdc303965"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "913380a47a67a58dd16d13d650ff83187fa170eab8219d7f6294bcbfdc303965",
+    "timestamp": "2026-02-05T08:09:15.570Z",
+    "hash": "59a7b6d891206c8db8b8d99b639288423efb2fb7b42182e70464a501d55284c2"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "59a7b6d891206c8db8b8d99b639288423efb2fb7b42182e70464a501d55284c2",
+    "timestamp": "2026-02-05T08:09:16.720Z",
+    "hash": "274fd472c7c359679be20e373be254d5e063233222a151f104df29f9cb74305a"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "274fd472c7c359679be20e373be254d5e063233222a151f104df29f9cb74305a",
+    "timestamp": "2026-02-05T08:09:21.086Z",
+    "hash": "784572060501a036476cdf7fcbba82ae0469ff36fc831ba763deb5cd6cf3e890"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "784572060501a036476cdf7fcbba82ae0469ff36fc831ba763deb5cd6cf3e890",
+    "timestamp": "2026-02-05T08:09:22.012Z",
+    "hash": "8f50aa2e74d74bf13eeb7760d5a29d300b88097d6f08d1860408571138c45edf"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "8f50aa2e74d74bf13eeb7760d5a29d300b88097d6f08d1860408571138c45edf",
+    "timestamp": "2026-02-05T08:09:22.479Z",
+    "hash": "ece4b9000cf12056fd501e4979eaa430a9ceaeb24b20db82be2e9be54e5b6fda"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "ece4b9000cf12056fd501e4979eaa430a9ceaeb24b20db82be2e9be54e5b6fda",
+    "timestamp": "2026-02-05T08:09:23.018Z",
+    "hash": "09e0709b08db89924b7385f124ba9e98bb6d70b51da8c2a244a73beebf23e93c"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "09e0709b08db89924b7385f124ba9e98bb6d70b51da8c2a244a73beebf23e93c",
+    "timestamp": "2026-02-05T08:09:24.160Z",
+    "hash": "a3e81188c284fe87a8112abd19a3ce5674d9d45ef324ec917fea266dbdd6de3d"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "a3e81188c284fe87a8112abd19a3ce5674d9d45ef324ec917fea266dbdd6de3d",
+    "timestamp": "2026-02-05T08:09:25.080Z",
+    "hash": "292249420459156fc37e2ce0ea2deef834aa6a316b59731747e198ab2c91d20b"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "292249420459156fc37e2ce0ea2deef834aa6a316b59731747e198ab2c91d20b",
+    "timestamp": "2026-02-05T08:09:25.558Z",
+    "hash": "0979a7c262166cff966aa3d5fca78f9914168d7fd680f0b077360c8d58d98529"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "0979a7c262166cff966aa3d5fca78f9914168d7fd680f0b077360c8d58d98529",
+    "timestamp": "2026-02-05T08:09:26.120Z",
+    "hash": "08670cb9c0420e0d36c001d9b224410747abffd1dbd60f1a3216398ea69fb7b0"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "User role does not permit admin access",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "08670cb9c0420e0d36c001d9b224410747abffd1dbd60f1a3216398ea69fb7b0",
+    "timestamp": "2026-02-05T08:09:26.487Z",
+    "hash": "ede6dc5146d0efac22842183f9a0108d5eaffb7e1d318c71ddf4620b4b7e904f"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 13
+    },
+    "previousHash": "ede6dc5146d0efac22842183f9a0108d5eaffb7e1d318c71ddf4620b4b7e904f",
+    "timestamp": "2026-02-05T08:09:26.966Z",
+    "hash": "404538d127cac67081c41c9a441c06e5589504954148bfb37318390936773f90"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "device": "Thunder Client (https://www.thunderclient.com)",
+      "time": 0
+    },
+    "previousHash": "404538d127cac67081c41c9a441c06e5589504954148bfb37318390936773f90",
+    "timestamp": "2026-02-05T19:23:19.334Z",
+    "hash": "7039e7cb4b4246cdb40417a896343f82df7790ea6d6db36648058573592db4ad"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "7039e7cb4b4246cdb40417a896343f82df7790ea6d6db36648058573592db4ad",
+    "timestamp": "2026-02-05T19:32:11.003Z",
+    "hash": "6d77192f49d470a6c984c01ef618e50416a5656b214568f448716ca68917ca2f"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "6d77192f49d470a6c984c01ef618e50416a5656b214568f448716ca68917ca2f",
+    "timestamp": "2026-02-05T19:32:11.623Z",
+    "hash": "3fc23cc522279d91fdd9516163251de0c718a2ede077678867c6b7c333c7d247"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "3fc23cc522279d91fdd9516163251de0c718a2ede077678867c6b7c333c7d247",
+    "timestamp": "2026-02-05T19:32:12.099Z",
+    "hash": "cdde5bf1a555e42d3d33a62887114a90f7ed1907053f15d4ddb0efc5d1122ba3"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "cdde5bf1a555e42d3d33a62887114a90f7ed1907053f15d4ddb0efc5d1122ba3",
+    "timestamp": "2026-02-05T19:32:12.991Z",
+    "hash": "886ae0e2b5d951fdbfbeaba87b2bffd91758536d425c30fd7fed64c96a6b36cc"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "886ae0e2b5d951fdbfbeaba87b2bffd91758536d425c30fd7fed64c96a6b36cc",
+    "timestamp": "2026-02-05T19:32:13.313Z",
+    "hash": "af2ebc70a1a65dbb97d1efe1f872377272d7a402d606d2d573835d725b3811e0"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "af2ebc70a1a65dbb97d1efe1f872377272d7a402d606d2d573835d725b3811e0",
+    "timestamp": "2026-02-05T19:32:14.135Z",
+    "hash": "4f532a0ac61b61b5242f729d8507666ac41c9ce44b7ed0c0a7358466169136c8"
+  },
+  {
+    "user": "admin",
+    "decision": "ALLOW",
+    "justification": "Access permitted",
+    "context": {
+      "role": "admin",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "4f532a0ac61b61b5242f729d8507666ac41c9ce44b7ed0c0a7358466169136c8",
+    "timestamp": "2026-02-05T19:32:14.446Z",
+    "hash": "341c1a62e87b0e5dea4a72a4cd95671b8660e0e6037c65104f8da36e189f6fe7"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "341c1a62e87b0e5dea4a72a4cd95671b8660e0e6037c65104f8da36e189f6fe7",
+    "timestamp": "2026-02-05T19:32:15.258Z",
+    "hash": "dff3e829236118a6a25565019bb21b2bc1073d0390f080681500199549c7d954"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "dff3e829236118a6a25565019bb21b2bc1073d0390f080681500199549c7d954",
+    "timestamp": "2026-02-05T19:32:16.183Z",
+    "hash": "a7e0fc08e45c184883a2ea9a22d8c9d36f26b06622140189eabea27200426d9c"
+  },
+  {
+    "user": "user",
+    "decision": "DENY",
+    "justification": "Unusual access time detected",
+    "context": {
+      "role": "user",
+      "resource": "admin",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "time": 1
+    },
+    "previousHash": "a7e0fc08e45c184883a2ea9a22d8c9d36f26b06622140189eabea27200426d9c",
+    "timestamp": "2026-02-05T19:32:17.459Z",
+    "hash": "faacccbaefe58e87dc8e12aa2272632d350990ad64a84770fbd2168449552065"
+  }
+]
