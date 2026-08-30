@@ -1,250 +1,1066 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Context-Aware Security Dashboard</title>
 
-  <style>
-    * { box-sizing: border-box; }
+<meta charset="UTF-8">
 
-    body {
-      margin: 0;
-      min-height: 100vh;
-      font-family: "Segoe UI", Arial, sans-serif;
-      background: radial-gradient(circle at top, #020617, #000);
-      color: #e5e7eb;
-      padding: 40px;
-    }
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0"
+>
 
-    h1 {
-      text-align: center;
-      margin-bottom: 40px;
-    }
+<title>Nexora Security</title>
 
-    .container {
-      max-width: 1000px;
-      margin: auto;
-    }
+<style>
 
-    .card {
-      background: rgba(15, 23, 42, 0.75);
-      backdrop-filter: blur(10px);
-      border-radius: 15px;
-      padding: 25px;
-      margin-bottom: 25px;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
-      border: 1px solid rgba(255,255,255,0.08);
-    }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-    .card h3 {
-      margin-top: 0;
-      margin-bottom: 15px;
-      color: #38bdf8;
-    }
+body {
 
-    .inputs {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
+  min-height: 100vh;
 
-    input {
-      flex: 1;
-      padding: 12px;
-      border-radius: 8px;
-      border: none;
-      outline: none;
-      font-size: 15px;
-    }
+  background:
+    radial-gradient(
+      circle at 20% 20%,
+      #111827 0,
+      #050607 35%,
+      #030405 100%
+    );
 
-    button {
-      padding: 12px 18px;
-      margin: 6px 6px 6px 0;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      font-weight: bold;
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
-    }
+  color: white;
 
-    button:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 10px 20px rgba(0,0,0,0.5);
-    }
+  font-family:
+    Inter,
+    Arial,
+    sans-serif;
 
-    .primary {
-      background: linear-gradient(135deg, #38bdf8, #0ea5e9);
-      color: #020617;
-    }
+  display: flex;
 
-    .secondary {
-      background: #1e293b;
-      color: #e5e7eb;
-    }
+  align-items: center;
 
-    .attack {
-      background: linear-gradient(135deg, #ef4444, #b91c1c);
-      color: white;
-    }
+  justify-content: center;
 
-    /* 🔔 POPUP NOTIFICATION (TOP-LEFT) */
-    #notification {
-      position: fixed;
-      top: 20px;
-      left: 20px;
-      min-width: 300px;
-      padding: 14px 18px;
-      border-radius: 10px;
-      font-weight: bold;
-      background: linear-gradient(135deg, #ef4444, #b91c1c);
-      color: white;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.6);
-      display: none;
-      z-index: 9999;
-      animation: slideIn 0.4s ease;
-    }
+  overflow-y: auto;
 
-    @keyframes slideIn {
-      from {
-        opacity: 0;
-        transform: translateX(-30px);
-      }
-      to {
-        opacity: 1;
-        transform: translateX(0);
-      }
-    }
+  padding: 30px;
 
-    #attackInfo {
-      display: none;
-      padding: 12px;
-      border-radius: 8px;
-      margin-bottom: 12px;
-      font-weight: bold;
-      background: rgba(239, 68, 68, 0.15);
-      color: #f87171;
-      border-left: 5px solid #ef4444;
-    }
+}
 
-    pre {
-      background: #020617;
-      padding: 18px;
-      border-radius: 10px;
-      overflow-x: auto;
-      font-size: 14px;
-      border: 1px solid rgba(255,255,255,0.08);
-    }
-  </style>
+.container {
+
+  width: 100%;
+
+  max-width: 1050px;
+
+  min-height: 600px;
+
+  display: grid;
+
+  grid-template-columns: 1.1fr .9fr;
+
+  background: rgba(9,10,12,.94);
+
+  border: 1px solid #1f2630;
+
+  border-radius: 20px;
+
+  overflow: hidden;
+
+  box-shadow:
+    0 30px 80px rgba(0,0,0,.6);
+
+}
+
+/* LEFT */
+
+.hero {
+
+  padding: 60px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  border-right: 1px solid #1b2027;
+
+}
+
+.logo {
+
+  width: 48px;
+
+  height: 48px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border-radius: 12px;
+
+  background: #111827;
+
+  border: 1px solid #334155;
+
+  color: #4d8dff;
+
+  font-size: 22px;
+
+  font-weight: 900;
+
+  margin-bottom: 25px;
+
+}
+
+.brand {
+
+  font-size: 13px;
+
+  letter-spacing: 4px;
+
+  font-weight: 800;
+
+  color: #dce3ec;
+
+}
+
+.brand span {
+  color: #4d8dff;
+}
+
+.hero h1 {
+
+  margin-top: 25px;
+
+  font-size: 48px;
+
+  line-height: 1.05;
+
+  letter-spacing: -2px;
+
+}
+
+.hero h1 span {
+  color: #4d8dff;
+}
+
+.hero p {
+
+  color: #737d89;
+
+  line-height: 1.8;
+
+  margin-top: 20px;
+
+  max-width: 480px;
+
+  font-size: 14px;
+
+}
+
+.features {
+
+  margin-top: 35px;
+
+  display: grid;
+
+  gap: 12px;
+
+}
+
+.feature {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  color: #aeb6c1;
+
+  font-size: 12px;
+
+}
+
+.feature-icon {
+
+  width: 28px;
+
+  height: 28px;
+
+  border-radius: 7px;
+
+  background: #0f1722;
+
+  border: 1px solid #202c3b;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  color: #4d8dff;
+
+}
+
+/* RIGHT */
+
+.login-section {
+
+  padding: 55px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+.login-box {
+
+  width: 100%;
+
+  max-width: 350px;
+
+}
+
+.login-label {
+
+  color: #4d8dff;
+
+  font-size: 9px;
+
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+
+}
+
+.login-box h2 {
+
+  font-size: 27px;
+
+  margin-bottom: 8px;
+
+}
+
+.subtitle {
+
+  color: #626c78;
+
+  font-size: 11px;
+
+  line-height: 1.7;
+
+  margin-bottom: 28px;
+
+}
+
+.field {
+
+  margin-bottom: 18px;
+
+}
+
+label {
+
+  display: block;
+
+  color: #929ba7;
+
+  font-size: 10px;
+
+  margin-bottom: 8px;
+
+}
+
+input {
+
+  width: 100%;
+
+  padding: 14px;
+
+  background: #0b0e12;
+
+  color: white;
+
+  border: 1px solid #242a33;
+
+  border-radius: 8px;
+
+  outline: none;
+
+  font-size: 13px;
+
+}
+
+input:focus {
+
+  border-color: #4d8dff;
+
+  box-shadow:
+    0 0 0 3px rgba(77,141,255,.08);
+
+}
+
+button {
+
+  width: 100%;
+
+  padding: 14px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #4d8dff;
+
+  color: white;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: .2s;
+
+}
+
+button:hover {
+
+  background: #3b7cf0;
+
+  transform: translateY(-1px);
+
+}
+
+button:disabled {
+
+  opacity: .6;
+
+  cursor: not-allowed;
+
+  transform: none;
+
+}
+
+.error {
+
+  margin-top: 15px;
+
+  padding: 12px;
+
+  border-radius: 7px;
+
+  background: rgba(255,93,108,.08);
+
+  border: 1px solid rgba(255,93,108,.2);
+
+  color: #ff6976;
+
+  font-size: 10px;
+
+  display: none;
+
+}
+
+.success {
+
+  margin-top: 15px;
+
+  padding: 12px;
+
+  border-radius: 7px;
+
+  background: rgba(69,201,130,.08);
+
+  border: 1px solid rgba(69,201,130,.2);
+
+  color: #45c982;
+
+  font-size: 10px;
+
+  display: none;
+
+}
+
+.security {
+
+  margin-top: 22px;
+
+  color: #4d5662;
+
+  font-size: 9px;
+
+  text-align: center;
+
+}
+
+/* OTP */
+
+#otpScreen {
+  display: none;
+}
+
+.otp-input {
+
+  text-align: center;
+
+  letter-spacing: 10px;
+
+  font-size: 24px;
+
+  font-weight: 700;
+
+}
+
+.otp-icon {
+
+  width: 55px;
+
+  height: 55px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #0e1724;
+
+  border: 1px solid #273a55;
+
+  color: #4d8dff;
+
+  font-size: 23px;
+
+  margin-bottom: 20px;
+
+}
+
+.back {
+
+  background: transparent;
+
+  border: 1px solid #252c35;
+
+  color: #858f9c;
+
+  margin-top: 10px;
+
+}
+
+.back:hover {
+
+  background: #101318;
+
+  border-color: #4d8dff;
+
+}
+
+/* RESPONSIVE */
+
+@media(max-width:850px) {
+
+  body {
+    padding: 15px;
+  }
+
+  .container {
+
+    grid-template-columns: 1fr;
+
+  }
+
+  .hero {
+
+    padding: 35px;
+
+    border-right: none;
+
+    border-bottom: 1px solid #1b2027;
+
+  }
+
+  .hero h1 {
+
+    font-size: 36px;
+
+  }
+
+  .login-section {
+
+    padding: 35px;
+
+  }
+
+}
+
+</style>
+
 </head>
 
 <body>
 
-  <!-- 🔔 NOTIFICATION POPUP -->
-  <div id="notification">❌ Invalid credentials. Please try again.</div>
+<div class="container">
 
-  <div class="container">
+  <!-- HERO -->
 
-    <h1>🔐 Context-Aware Security Decision Dashboard</h1>
+  <section class="hero">
 
-    <div class="card">
-      <h3>Access Request</h3>
+    <div class="logo">
+      N
+    </div>
 
-      <div class="inputs">
-        <input id="username" placeholder="Username">
-        <input id="password" placeholder="Password">
-        <input id="resource" placeholder="Resource (admin)">
+    <div class="brand">
+      NEXORA<span>.</span>
+    </div>
+
+    <h1>
+      Security<br>
+      <span>Without Compromise.</span>
+    </h1>
+
+    <p>
+      Intelligent authentication monitoring,
+      threat detection and real-time security
+      response for modern applications.
+    </p>
+
+    <div class="features">
+
+      <div class="feature">
+        <div class="feature-icon">✓</div>
+        Adaptive risk detection
       </div>
 
-      <div class="buttons">
-        <button class="primary" onclick="normalAccess()">Check Access</button>
-        <button class="secondary" onclick="loadLogs()">View Audit Logs</button>
+      <div class="feature">
+        <div class="feature-icon">⚡</div>
+        Real-time threat monitoring
       </div>
+
+      <div class="feature">
+        <div class="feature-icon">🔐</div>
+        Multi-factor authentication
+      </div>
+
     </div>
 
-    <div class="card">
-      <h3>🚨 Threat Simulator</h3>
+  </section>
 
-      <button class="attack" onclick="simulateBruteForce()">Brute Force Attack</button>
-      <button class="attack" onclick="simulatePrivilegeEscalation()">Privilege Escalation</button>
-      <button class="attack" onclick="simulateOffHours()">Off-Hours Access</button>
+
+  <!-- LOGIN -->
+
+  <section class="login-section">
+
+    <div class="login-box">
+
+      <!-- LOGIN SCREEN -->
+
+      <div id="loginScreen">
+
+        <div class="login-label">
+          Secure Access
+        </div>
+
+        <h2>
+          Sign in
+        </h2>
+
+        <p class="subtitle">
+          Authenticate to access the Nexora
+          Security Command Center.
+        </p>
+
+        <div class="field">
+
+          <label>
+            USERNAME
+          </label>
+
+          <input
+            id="username"
+            type="text"
+            placeholder="Enter username"
+            autocomplete="username"
+          >
+
+        </div>
+
+        <div class="field">
+
+          <label>
+            PASSWORD
+          </label>
+
+          <input
+            id="password"
+            type="password"
+            placeholder="Enter password"
+            autocomplete="current-password"
+          >
+
+        </div>
+
+        <button
+          id="loginButton"
+          onclick="login()"
+        >
+          CONTINUE
+        </button>
+
+        <div
+          id="loginError"
+          class="error"
+        ></div>
+
+        <div class="security">
+          🔒 Protected by Nexora Security Engine
+        </div>
+
+      </div>
+
+
+      <!-- OTP SCREEN -->
+
+      <div id="otpScreen">
+
+        <div class="otp-icon">
+          🔐
+        </div>
+
+        <div class="login-label">
+          Identity Verification
+        </div>
+
+        <h2>
+          Verify your identity
+        </h2>
+
+        <p class="subtitle">
+
+          Your password was verified.
+          A 6-digit verification code has
+          been sent to your registered email.
+
+        </p>
+
+        <div class="field">
+
+          <label>
+            VERIFICATION CODE
+          </label>
+
+          <input
+            id="otp"
+            class="otp-input"
+            type="text"
+            inputmode="numeric"
+            maxlength="6"
+            placeholder="••••••"
+          >
+
+        </div>
+
+        <button
+          id="verifyButton"
+          onclick="verifyOTP()"
+        >
+          VERIFY & CONTINUE
+        </button>
+
+        <button
+          class="back"
+          onclick="backToLogin()"
+        >
+          BACK TO LOGIN
+        </button>
+
+        <div
+          id="otpError"
+          class="error"
+        ></div>
+
+        <div
+          id="otpSuccess"
+          class="success"
+        ></div>
+
+        <div class="security">
+          ⏱ Verification code expires in 5 minutes
+        </div>
+
+      </div>
+
     </div>
 
-    <div class="card">
-      <div id="attackInfo"></div>
-      <pre id="output">{ }</pre>
-    </div>
+  </section>
 
-  </div>
+</div>
 
-  <script>
-    async function sendRequest(attackType, payload) {
 
-      const notification = document.getElementById("notification");
-      const attackInfo = document.getElementById("attackInfo");
+<script>
 
-      attackInfo.style.display = "block";
-      attackInfo.innerText = "🚨 Attack Type Detected: " + attackType;
+/* =====================================================
+   LOGIN
+===================================================== */
 
-      const res = await fetch("/login", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload)
-      });
+async function login() {
 
-      const data = await res.json();
+  const username =
+    document
+      .getElementById("username")
+      .value
+      .trim();
 
-      // ❌ Show popup on invalid credentials
-      if (!res.ok) {
-        notification.style.display = "block";
-        output.innerText = JSON.stringify(data, null, 2);
-        return;
+  const password =
+    document
+      .getElementById("password")
+      .value;
+
+  const error =
+    document
+      .getElementById("loginError");
+
+  const button =
+    document
+      .getElementById("loginButton");
+
+  error.style.display = "none";
+
+  if (!username || !password) {
+
+    error.textContent =
+      "Please enter username and password.";
+
+    error.style.display =
+      "block";
+
+    return;
+  }
+
+  button.disabled = true;
+
+  button.textContent =
+    "AUTHENTICATING...";
+
+  try {
+
+    const response =
+      await fetch(
+        "/login",
+        {
+          method: "POST",
+
+          headers: {
+            "Content-Type":
+              "application/json"
+          },
+
+          body:
+            JSON.stringify({
+              username,
+              password
+            })
+        }
+      );
+
+    const data =
+      await response.json();
+
+    if (!response.ok) {
+
+      error.textContent =
+        data.message ||
+        "Login failed.";
+
+      error.style.display =
+        "block";
+
+      button.disabled = false;
+
+      button.textContent =
+        "CONTINUE";
+
+      return;
+    }
+
+    /* Password correct */
+
+    if (
+      data.requiresOTP
+    ) {
+
+      sessionStorage.setItem(
+        "otpUsername",
+        data.username
+      );
+
+      document
+        .getElementById(
+          "loginScreen"
+        )
+        .style.display =
+          "none";
+
+      document
+        .getElementById(
+          "otpScreen"
+        )
+        .style.display =
+          "block";
+
+      document
+        .getElementById(
+          "otp"
+        )
+        .focus();
+
+      return;
+    }
+
+  } catch (error) {
+
+    console.error(error);
+
+    errorBox(
+      "Unable to connect to server."
+    );
+
+  } finally {
+
+    button.disabled = false;
+
+    button.textContent =
+      "CONTINUE";
+  }
+}
+
+
+/* =====================================================
+   VERIFY OTP
+===================================================== */
+
+async function verifyOTP() {
+
+  const username =
+    sessionStorage.getItem(
+      "otpUsername"
+    );
+
+  const otp =
+    document
+      .getElementById("otp")
+      .value
+      .trim();
+
+  const error =
+    document
+      .getElementById("otpError");
+
+  const success =
+    document
+      .getElementById("otpSuccess");
+
+  const button =
+    document
+      .getElementById(
+        "verifyButton"
+      );
+
+  error.style.display =
+    "none";
+
+  success.style.display =
+    "none";
+
+  if (!otp || otp.length !== 6) {
+
+    error.textContent =
+      "Enter the 6-digit verification code.";
+
+    error.style.display =
+      "block";
+
+    return;
+  }
+
+  button.disabled = true;
+
+  button.textContent =
+    "VERIFYING...";
+
+  try {
+
+    const response =
+      await fetch(
+        "/verify-otp",
+        {
+          method: "POST",
+
+          headers: {
+            "Content-Type":
+              "application/json"
+          },
+
+          body:
+            JSON.stringify({
+              username,
+              otp
+            })
+        }
+      );
+
+    const data =
+      await response.json();
+
+    if (!response.ok) {
+
+      error.textContent =
+        data.message ||
+        "Invalid verification code.";
+
+      if (
+        data.remainingAttempts !==
+        undefined
+      ) {
+
+        error.textContent +=
+          " Remaining attempts: " +
+          data.remainingAttempts;
+
       }
 
-      // ✅ Hide popup automatically on success
-      notification.style.display = "none";
-      output.innerText = JSON.stringify(data, null, 2);
+      error.style.display =
+        "block";
+
+      button.disabled = false;
+
+      button.textContent =
+        "VERIFY & CONTINUE";
+
+      return;
     }
 
-    function normalAccess() {
-      sendRequest("Normal Access Request", {
-        username: username.value,
-        password: password.value,
-        resource: resource.value
-      });
-    }
+    /* ---------------------------------------------
+       LOGIN COMPLETE
+    --------------------------------------------- */
 
-    function simulateBruteForce() {
-      sendRequest("Brute Force Attack", {
-        username: "user",
-        password: "wrongpassword",
-        resource: "admin"
-      });
-    }
+    localStorage.setItem(
+      "token",
+      data.token
+    );
 
-    function simulatePrivilegeEscalation() {
-      sendRequest("Privilege Escalation Attack", {
-        username: "user",
-        password: "user123",
-        resource: "admin"
-      });
-    }
+    localStorage.setItem(
+      "username",
+      data.username
+    );
 
-    function simulateOffHours() {
-      sendRequest("Off-Hours Access Attack", {
-        username: "admin",
-        password: "admin123",
-        resource: "admin"
-      });
-    }
+    success.textContent =
+      "✓ Identity verified. Opening Security Command Center...";
 
-    async function loadLogs() {
-      const res = await fetch("/logs");
-      const data = await res.json();
-      document.getElementById("notification").style.display = "none";
-      document.getElementById("attackInfo").style.display = "none";
-      output.innerText = JSON.stringify(data, null, 2);
-    }
-  </script>
+    success.style.display =
+      "block";
+
+    sessionStorage.removeItem(
+      "otpUsername"
+    );
+
+    setTimeout(
+      () => {
+
+        window.location.href =
+          "/dashboard.html";
+
+      },
+      700
+    );
+
+  } catch (error) {
+
+    console.error(error);
+
+    error.textContent =
+      "Unable to connect to server.";
+
+    error.style.display =
+      "block";
+
+    button.disabled = false;
+
+    button.textContent =
+      "VERIFY & CONTINUE";
+  }
+}
+
+
+/* =====================================================
+   BACK
+===================================================== */
+
+function backToLogin() {
+
+  sessionStorage.removeItem(
+    "otpUsername"
+  );
+
+  document
+    .getElementById(
+      "otpScreen"
+    )
+    .style.display =
+      "none";
+
+  document
+    .getElementById(
+      "loginScreen"
+    )
+    .style.display =
+      "block";
+
+  document
+    .getElementById(
+      "otp"
+    )
+    .value = "";
+
+}
+
+
+/* =====================================================
+   ERROR
+===================================================== */
+
+function errorBox(message) {
+
+  const error =
+    document.getElementById(
+      "loginError"
+    );
+
+  error.textContent =
+    message;
+
+  error.style.display =
+    "block";
+
+}
+
+</script>
 
 </body>
+
 </html>

@@ -1,0 +1,3034 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nexora Security Command Center</title>
+
+<style>
+
+/* =====================================================
+   RESET
+===================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background:
+        radial-gradient(circle at 20% 0%, rgba(40, 90, 180, 0.08), transparent 30%),
+        #05070a;
+
+    color: #f5f7fa;
+
+    font-family:
+        Inter,
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    min-height: 100vh;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.header {
+
+    height: 76px;
+
+    padding: 0 38px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    background: rgba(7, 9, 12, 0.96);
+
+    border-bottom: 1px solid #202630;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 100;
+
+    backdrop-filter: blur(12px);
+}
+
+.brand {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+}
+
+.logo {
+
+    width: 40px;
+
+    height: 40px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #0d1522;
+
+    border: 1px solid #30435f;
+
+    border-radius: 10px;
+
+    color: #4d8dff;
+
+    font-size: 18px;
+
+    font-weight: 800;
+
+    box-shadow: 0 0 20px rgba(77,141,255,.08);
+}
+
+.brand-name {
+
+    font-size: 18px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+.brand-name span {
+
+    color: #4d8dff;
+}
+
+.header-right {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 24px;
+}
+
+.status {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 9px;
+
+    color: #7e8794;
+
+    font-size: 11px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1.2px;
+}
+
+.status-dot {
+
+    width: 9px;
+
+    height: 9px;
+
+    background: #45c982;
+
+    border-radius: 50%;
+
+    box-shadow:
+        0 0 8px #45c982,
+        0 0 18px rgba(69,201,130,.4);
+
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+
+    0%,100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .4;
+    }
+}
+
+.logout {
+
+    background: #101318;
+
+    border: 1px solid #2b323c;
+
+    color: #b8c0ca;
+
+    padding: 11px 17px;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    font-size: 10px;
+
+    font-weight: 600;
+
+    transition: .2s;
+}
+
+.logout:hover {
+
+    border-color: #4d8dff;
+
+    color: white;
+
+    background: #121821;
+}
+
+
+/* =====================================================
+   MAIN
+===================================================== */
+
+.main {
+
+    width: 100%;
+
+    max-width: 1500px;
+
+    margin: auto;
+
+    padding: 38px;
+}
+
+
+/* =====================================================
+   WELCOME
+===================================================== */
+
+.welcome {
+
+    margin-bottom: 30px;
+}
+
+.welcome-label {
+
+    color: #4d8dff;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 2.2px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.welcome h1 {
+
+    font-size: 34px;
+
+    line-height: 1.2;
+
+    letter-spacing: -1px;
+}
+
+.welcome p {
+
+    color: #737e8d;
+
+    font-size: 13px;
+
+    margin-top: 10px;
+}
+
+
+/* =====================================================
+   SECTION TITLE
+===================================================== */
+
+.section-heading {
+
+    margin: 34px 0 15px;
+}
+
+.section-heading h2 {
+
+    font-size: 16px;
+
+    letter-spacing: .4px;
+}
+
+.section-heading p {
+
+    margin-top: 5px;
+
+    color: #667180;
+
+    font-size: 11px;
+}
+
+
+/* =====================================================
+   SYSTEM OVERVIEW
+===================================================== */
+
+.overview-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 16px;
+}
+
+.overview-card {
+
+    min-height: 125px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #0c0f14,
+            #090b0f
+        );
+
+    border: 1px solid #202630;
+
+    border-radius: 12px;
+
+    padding: 22px;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.overview-card::after {
+
+    content: "";
+
+    position: absolute;
+
+    width: 100px;
+
+    height: 100px;
+
+    right: -45px;
+
+    bottom: -55px;
+
+    background: rgba(77,141,255,.06);
+
+    border-radius: 50%;
+}
+
+.overview-label {
+
+    color: #687383;
+
+    font-size: 9px;
+
+    letter-spacing: 1.4px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 14px;
+}
+
+.overview-value {
+
+    font-size: 23px;
+
+    font-weight: 750;
+}
+
+.overview-value.green {
+
+    color: #45c982;
+}
+
+.overview-value.red {
+
+    color: #ff5d6c;
+}
+
+.overview-value.blue {
+
+    color: #4d8dff;
+}
+
+.overview-value.yellow {
+
+    color: #e7b84b;
+}
+
+.overview-description {
+
+    color: #596472;
+
+    font-size: 9px;
+
+    margin-top: 8px;
+}
+
+
+/* =====================================================
+   STATISTICS
+===================================================== */
+
+.stats {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 16px;
+}
+
+.stat {
+
+    background: #090b0f;
+
+    border: 1px solid #202630;
+
+    border-radius: 12px;
+
+    padding: 23px;
+
+    transition: .2s;
+}
+
+.stat:hover {
+
+    transform: translateY(-2px);
+
+    border-color: #2d3948;
+}
+
+.stat-label {
+
+    color: #697482;
+
+    font-size: 9px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1.4px;
+
+    margin-bottom: 14px;
+}
+
+.stat-value {
+
+    font-size: 32px;
+
+    font-weight: 750;
+}
+
+.stat-value.blue {
+
+    color: #4d8dff;
+}
+
+.stat-value.red {
+
+    color: #ff5d6c;
+}
+
+.stat-value.green {
+
+    color: #45c982;
+}
+
+.stat-value.yellow {
+
+    color: #e7b84b;
+}
+
+
+/* =====================================================
+   SOC GRID
+===================================================== */
+
+.soc-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr 1fr;
+
+    gap: 18px;
+}
+
+.soc-card {
+
+    background: #090b0f;
+
+    border: 1px solid #202630;
+
+    border-radius: 12px;
+
+    padding: 22px;
+
+    min-height: 250px;
+}
+
+.soc-title {
+
+    color: #7e9bc5;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.7px;
+
+    margin-bottom: 20px;
+}
+
+
+/* =====================================================
+   THREAT ACTIVITY
+===================================================== */
+
+.attack-row {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 12px 0;
+
+    border-bottom: 1px solid #181c22;
+
+    font-size: 11px;
+}
+
+.attack-row:last-child {
+
+    border-bottom: none;
+}
+
+.attack-name {
+
+    color: #c7ced8;
+}
+
+.attack-count {
+
+    color: #ff6674;
+
+    font-weight: 700;
+
+    font-size: 12px;
+}
+
+
+/* =====================================================
+   RISK DISTRIBUTION
+===================================================== */
+
+.risk-row {
+
+    margin-bottom: 17px;
+}
+
+.risk-label {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    color: #8993a1;
+
+    font-size: 10px;
+
+    margin-bottom: 7px;
+}
+
+.risk-track {
+
+    height: 7px;
+
+    background: #181c22;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+.risk-progress {
+
+    height: 100%;
+
+    border-radius: 20px;
+
+    transition: width .8s ease;
+}
+
+.low {
+
+    background: #45c982;
+}
+
+.medium {
+
+    background: #e7b84b;
+}
+
+.high {
+
+    background: #ff9657;
+}
+
+.critical {
+
+    background: #ff5d6c;
+}
+
+
+/* =====================================================
+   LIVE FEED
+===================================================== */
+
+.feed {
+
+    max-height: 205px;
+
+    overflow-y: auto;
+
+    padding-right: 6px;
+}
+
+.feed::-webkit-scrollbar {
+
+    width: 5px;
+}
+
+.feed::-webkit-scrollbar-track {
+
+    background: #0b0e12;
+}
+
+.feed::-webkit-scrollbar-thumb {
+
+    background: #29313c;
+
+    border-radius: 10px;
+}
+
+.feed-item {
+
+    padding: 11px 0;
+
+    border-bottom: 1px solid #181c22;
+}
+
+.feed-item:last-child {
+
+    border-bottom: none;
+}
+
+.feed-time {
+
+    color: #4d8dff;
+
+    font-size: 9px;
+}
+
+.feed-message {
+
+    color: #c4cad3;
+
+    font-size: 11px;
+
+    margin-top: 5px;
+}
+
+.feed-risk {
+
+    color: #45c982;
+
+    font-size: 9px;
+
+    margin-top: 4px;
+}
+
+.feed-risk.high {
+
+    color: #ff6674;
+}
+
+
+/* =====================================================
+   EVENTS PANEL
+===================================================== */
+
+.panel {
+
+    background: #090b0f;
+
+    border: 1px solid #202630;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+}
+
+.panel-header {
+
+    padding: 21px 23px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    border-bottom: 1px solid #202630;
+}
+
+.panel-title {
+
+    font-size: 15px;
+
+    font-weight: 700;
+}
+
+.panel-subtitle {
+
+    color: #687383;
+
+    font-size: 10px;
+
+    margin-top: 5px;
+}
+
+.refresh {
+
+    background: #11161d;
+
+    color: #9ba4af;
+
+    border: 1px solid #2a323d;
+
+    border-radius: 7px;
+
+    padding: 10px 14px;
+
+    cursor: pointer;
+
+    font-size: 9px;
+
+    transition: .2s;
+}
+
+.refresh:hover {
+
+    color: white;
+
+    border-color: #4d8dff;
+}
+
+
+/* =====================================================
+   TABLE
+===================================================== */
+
+.table-wrapper {
+
+    overflow-x: auto;
+}
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    min-width: 950px;
+}
+
+thead {
+
+    background: #0d1015;
+}
+
+th {
+
+    text-align: left;
+
+    padding: 15px 17px;
+
+    color: #66717f;
+
+    font-size: 9px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1.1px;
+
+    font-weight: 600;
+}
+
+td {
+
+    padding: 17px;
+
+    border-top: 1px solid #181c22;
+
+    color: #c4cad3;
+
+    font-size: 11px;
+}
+
+tbody tr {
+
+    transition: .2s;
+}
+
+tbody tr:hover {
+
+    background: #0d1117;
+}
+
+.user {
+
+    color: white;
+
+    font-weight: 650;
+}
+
+.ip {
+
+    color: #8490a0;
+
+    font-family: monospace;
+
+    font-size: 11px;
+}
+
+.location {
+
+    color: #c0c7d0;
+
+    font-size: 11px;
+}
+
+.location small {
+
+    display: block;
+
+    color: #626d7b;
+
+    margin-top: 4px;
+
+    font-size: 9px;
+}
+
+
+/* =====================================================
+   BADGES
+===================================================== */
+
+.badge {
+
+    display: inline-block;
+
+    padding: 6px 9px;
+
+    border-radius: 5px;
+
+    font-size: 8px;
+
+    font-weight: 700;
+
+    letter-spacing: .7px;
+
+    text-transform: uppercase;
+}
+
+.badge.allow {
+
+    background: rgba(69,201,130,.09);
+
+    color: #45c982;
+
+    border: 1px solid rgba(69,201,130,.2);
+}
+
+.badge.deny {
+
+    background: rgba(255,93,108,.09);
+
+    color: #ff6875;
+
+    border: 1px solid rgba(255,93,108,.2);
+}
+
+.badge.locked {
+
+    background: rgba(255,93,108,.14);
+
+    color: #ff5969;
+
+    border: 1px solid rgba(255,93,108,.28);
+}
+
+.badge.warning {
+
+    background: rgba(231,184,75,.1);
+
+    color: #e7b84b;
+
+    border: 1px solid rgba(231,184,75,.2);
+}
+
+
+/* =====================================================
+   RISK
+===================================================== */
+
+.risk {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 9px;
+}
+
+.risk-bar {
+
+    width: 65px;
+
+    height: 5px;
+
+    background: #1b2027;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.risk-fill {
+
+    height: 100%;
+
+    border-radius: 10px;
+}
+
+.risk-number {
+
+    font-size: 10px;
+
+    color: #9ba4af;
+}
+
+
+/* =====================================================
+   LOWER GRID
+===================================================== */
+
+.lower-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap: 18px;
+
+    margin-top: 20px;
+}
+
+
+/* =====================================================
+   LOCATION CARD
+===================================================== */
+
+.side-card {
+
+    background: #090b0f;
+
+    border: 1px solid #202630;
+
+    border-radius: 12px;
+
+    padding: 22px;
+}
+
+.side-title {
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    margin-bottom: 18px;
+}
+
+.location-card {
+
+    padding: 14px;
+
+    background: #0d1015;
+
+    border: 1px solid #1d232c;
+
+    border-radius: 8px;
+
+    margin-bottom: 10px;
+}
+
+.location-top {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 8px;
+}
+
+.location-city {
+
+    font-size: 11px;
+
+    font-weight: 700;
+}
+
+.location-risk {
+
+    font-size: 9px;
+
+    color: #ff6875;
+}
+
+.location-info {
+
+    color: #687383;
+
+    font-size: 9px;
+
+    line-height: 1.7;
+}
+
+
+/* =====================================================
+   ALERT STATUS
+===================================================== */
+
+.alert-item {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 15px;
+
+    background: #0d1015;
+
+    border: 1px solid #1d232c;
+
+    border-radius: 8px;
+
+    margin-bottom: 10px;
+}
+
+.alert-left {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+}
+
+.alert-icon {
+
+    width: 34px;
+
+    height: 34px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #111820;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+}
+
+.alert-name {
+
+    font-size: 11px;
+
+    font-weight: 700;
+}
+
+.alert-description {
+
+    color: #687383;
+
+    font-size: 9px;
+
+    margin-top: 4px;
+}
+
+.alert-status {
+
+    color: #45c982;
+
+    font-size: 9px;
+
+    font-weight: 700;
+
+    letter-spacing: .6px;
+}
+
+.alert-status::before {
+
+    content: "";
+
+    display: inline-block;
+
+    width: 7px;
+
+    height: 7px;
+
+    background: #45c982;
+
+    border-radius: 50%;
+
+    margin-right: 6px;
+
+    box-shadow: 0 0 7px #45c982;
+}
+
+
+/* =====================================================
+   EMPTY
+===================================================== */
+
+.empty {
+
+    text-align: center;
+
+    padding: 55px 20px;
+
+    color: #5c6672;
+
+    font-size: 11px;
+}
+
+.empty-icon {
+
+    font-size: 28px;
+
+    margin-bottom: 12px;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.footer {
+
+    margin-top: 35px;
+
+    padding: 22px 0;
+
+    border-top: 1px solid #1a1e24;
+
+    color: #555f6b;
+
+    font-size: 9px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    letter-spacing: .5px;
+}
+
+
+/* =====================================================
+   LOADING
+===================================================== */
+
+.loading {
+
+    color: #667180;
+
+    font-size: 10px;
+
+    padding: 20px 0;
+}
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media(max-width:1150px) {
+
+    .overview-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .stats {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .soc-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media(max-width:800px) {
+
+    .main {
+
+        padding: 25px 18px;
+    }
+
+    .header {
+
+        padding: 0 18px;
+    }
+
+    .status {
+
+        display: none;
+    }
+
+    .lower-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+    .welcome h1 {
+
+        font-size: 28px;
+    }
+
+}
+
+@media(max-width:550px) {
+
+    .overview-grid,
+    .stats {
+
+        grid-template-columns: 1fr;
+    }
+
+    .header {
+
+        height: 68px;
+    }
+
+    .brand-name {
+
+        font-size: 15px;
+    }
+
+    .logo {
+
+        width: 36px;
+
+        height: 36px;
+    }
+
+    .welcome h1 {
+
+        font-size: 25px;
+    }
+
+    .welcome p {
+
+        font-size: 11px;
+
+        line-height: 1.6;
+    }
+
+    .footer {
+
+        flex-direction: column;
+
+        gap: 8px;
+    }
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="header">
+
+    <div class="brand">
+
+        <div class="logo">
+            N
+        </div>
+
+        <div class="brand-name">
+            NEXORA<span>.</span>
+        </div>
+
+    </div>
+
+
+    <div class="header-right">
+
+        <div class="status">
+
+            <span class="status-dot"></span>
+
+            SOC SYSTEMS LIVE
+
+        </div>
+
+
+        <button
+            class="logout"
+            onclick="logout()"
+        >
+            SIGN OUT
+        </button>
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     MAIN
+===================================================== -->
+
+<main class="main">
+
+
+<!-- =====================================================
+     WELCOME
+===================================================== -->
+
+<section class="welcome">
+
+    <div class="welcome-label">
+        Security Operations Center
+    </div>
+
+    <h1>
+        Welcome, <span id="username">User</span>.
+    </h1>
+
+    <p>
+        Real-time authentication monitoring,
+        threat detection and security intelligence.
+    </p>
+
+</section>
+
+
+
+<!-- =====================================================
+     SYSTEM OVERVIEW
+===================================================== -->
+
+<div class="section-heading">
+
+    <h2>
+        System Overview
+    </h2>
+
+    <p>
+        Current security engine status
+    </p>
+
+</div>
+
+
+<section class="overview-grid">
+
+
+    <div class="overview-card">
+
+        <div class="overview-label">
+            Protection
+        </div>
+
+        <div
+            class="overview-value green"
+        >
+            ACTIVE
+        </div>
+
+        <div class="overview-description">
+            Authentication monitoring enabled
+        </div>
+
+    </div>
+
+
+    <div class="overview-card">
+
+        <div class="overview-label">
+            Active Locks
+        </div>
+
+        <div
+            class="overview-value red"
+            id="activeLocks"
+        >
+            0
+        </div>
+
+        <div class="overview-description">
+            Accounts currently locked
+        </div>
+
+    </div>
+
+
+    <div class="overview-card">
+
+        <div class="overview-label">
+            Pending 2FA
+        </div>
+
+        <div
+            class="overview-value blue"
+            id="pending2FA"
+        >
+            0
+        </div>
+
+        <div class="overview-description">
+            Verification requests
+        </div>
+
+    </div>
+
+
+    <div class="overview-card">
+
+        <div class="overview-label">
+            Last Update
+        </div>
+
+        <div
+            class="overview-value yellow"
+            id="lastUpdate"
+        >
+            --:--
+        </div>
+
+        <div class="overview-description">
+            Security engine refresh
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     SECURITY STATISTICS
+===================================================== -->
+
+<div class="section-heading">
+
+    <h2>
+        Security Statistics
+    </h2>
+
+    <p>
+        Authentication activity overview
+    </p>
+
+</div>
+
+
+<section class="stats">
+
+
+    <div class="stat">
+
+        <div class="stat-label">
+            Total Events
+        </div>
+
+        <div
+            class="stat-value blue"
+            id="totalEvents"
+        >
+            0
+        </div>
+
+    </div>
+
+
+    <div class="stat">
+
+        <div class="stat-label">
+            Blocked Events
+        </div>
+
+        <div
+            class="stat-value red"
+            id="blockedEvents"
+        >
+            0
+        </div>
+
+    </div>
+
+
+    <div class="stat">
+
+        <div class="stat-label">
+            Successful Logins
+        </div>
+
+        <div
+            class="stat-value green"
+            id="allowedEvents"
+        >
+            0
+        </div>
+
+    </div>
+
+
+    <div class="stat">
+
+        <div class="stat-label">
+            Highest Risk
+        </div>
+
+        <div
+            class="stat-value yellow"
+            id="highestRisk"
+        >
+            0
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     SOC ANALYTICS
+===================================================== -->
+
+<div class="section-heading">
+
+    <h2>
+        SOC Analytics
+    </h2>
+
+    <p>
+        Threat intelligence and real-time security activity
+    </p>
+
+</div>
+
+
+<section class="soc-grid">
+
+
+    <!-- THREAT ACTIVITY -->
+
+    <div class="soc-card">
+
+        <div class="soc-title">
+            THREAT ACTIVITY
+        </div>
+
+        <div id="attackStats">
+
+            <div class="loading">
+                Loading threat intelligence...
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- RISK DISTRIBUTION -->
+
+    <div class="soc-card">
+
+        <div class="soc-title">
+            RISK DISTRIBUTION
+        </div>
+
+        <div id="riskStats">
+
+            <div class="loading">
+                Calculating risk...
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- LIVE FEED -->
+
+    <div class="soc-card">
+
+        <div class="soc-title">
+            LIVE SECURITY FEED
+        </div>
+
+        <div
+            class="feed"
+            id="liveFeed"
+        >
+
+            <div class="loading">
+                Waiting for security events...
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     AUTHENTICATION EVENTS
+===================================================== -->
+
+<div class="section-heading">
+
+    <h2>
+        Authentication Events
+    </h2>
+
+    <p>
+        Real-time authentication and threat detection activity
+    </p>
+
+</div>
+
+
+<section class="panel">
+
+
+    <div class="panel-header">
+
+        <div>
+
+            <div class="panel-title">
+                Security Event Log
+            </div>
+
+            <div class="panel-subtitle">
+                Authentication monitoring
+            </div>
+
+        </div>
+
+
+        <button
+            class="refresh"
+            onclick="loadLogs()"
+        >
+            ↻ REFRESH
+        </button>
+
+    </div>
+
+
+
+    <div class="table-wrapper">
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>
+                        Time
+                    </th>
+
+                    <th>
+                        User
+                    </th>
+
+                    <th>
+                        IP Address
+                    </th>
+
+                    <th>
+                        Location
+                    </th>
+
+                    <th>
+                        Risk
+                    </th>
+
+                    <th>
+                        Attack
+                    </th>
+
+                    <th>
+                        Status
+                    </th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody id="eventsTable">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     LOCATIONS + ALERTS
+===================================================== -->
+
+<section class="lower-grid">
+
+
+    <!-- LOCATIONS -->
+
+    <div class="side-card">
+
+        <div class="side-title">
+            📍 Recent Login Locations
+        </div>
+
+        <div id="locations">
+
+            <div class="loading">
+                Loading location activity...
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ALERT ENGINE -->
+
+    <div class="side-card">
+
+        <div class="side-title">
+            🔔 Security Alert Engine
+        </div>
+
+
+        <div class="alert-item">
+
+            <div class="alert-left">
+
+                <div class="alert-icon">
+                    📱
+                </div>
+
+                <div>
+
+                    <div class="alert-name">
+                        SMS Alerts
+                    </div>
+
+                    <div class="alert-description">
+                        Critical authentication notifications
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="alert-status">
+                OPERATIONAL
+            </div>
+
+        </div>
+
+
+
+        <div class="alert-item">
+
+            <div class="alert-left">
+
+                <div class="alert-icon">
+                    ✉
+                </div>
+
+                <div>
+
+                    <div class="alert-name">
+                        Email Alerts
+                    </div>
+
+                    <div class="alert-description">
+                        Security event notifications
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="alert-status">
+                OPERATIONAL
+            </div>
+
+        </div>
+
+
+
+        <div class="alert-item">
+
+            <div class="alert-left">
+
+                <div class="alert-icon">
+                    🔐
+                </div>
+
+                <div>
+
+                    <div class="alert-name">
+                        Account Lock Protection
+                    </div>
+
+                    <div class="alert-description">
+                        Brute-force protection enabled
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="alert-status">
+                ACTIVE
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <span>
+        NEXORA SECURITY
+    </span>
+
+    <span>
+        SOC Monitoring Engine · v2.0
+    </span>
+
+</footer>
+
+
+</main>
+
+
+
+<script>
+
+/* =====================================================
+   AUTHENTICATION
+===================================================== */
+
+const token =
+    localStorage.getItem("token");
+
+const username =
+    localStorage.getItem("username");
+
+
+if (!token) {
+
+    window.location.href = "/";
+
+}
+
+
+document
+    .getElementById("username")
+    .textContent =
+        username || "User";
+
+
+/* =====================================================
+   ESCAPE HTML
+===================================================== */
+
+function escapeHTML(value) {
+
+    if (
+        value === null ||
+        value === undefined
+    ) {
+
+        return "";
+
+    }
+
+    return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+
+}
+
+
+/* =====================================================
+   RISK COLOR
+===================================================== */
+
+function getRiskColor(risk) {
+
+    if (risk >= 80) {
+
+        return "#ff5d6c";
+
+    }
+
+    if (risk >= 50) {
+
+        return "#e7b84b";
+
+    }
+
+    return "#45c982";
+
+}
+
+
+/* =====================================================
+   FORMAT LOCATION
+===================================================== */
+
+function formatLocation(location) {
+
+    if (!location) {
+
+        return `
+            <div class="location">
+                Unknown
+            </div>
+        `;
+
+    }
+
+
+    const city =
+        location.city || "Unknown";
+
+    const region =
+        location.region || "";
+
+    const country =
+        location.country || "";
+
+
+    if (city === "Localhost") {
+
+        return `
+            <div class="location">
+
+                Localhost
+
+                <small>
+                    Local Network
+                </small>
+
+            </div>
+        `;
+
+    }
+
+
+    return `
+        <div class="location">
+
+            ${escapeHTML(city)}
+
+            <small>
+
+                ${escapeHTML(region)}
+
+                ${
+                    region && country
+                        ? ", "
+                        : ""
+                }
+
+                ${escapeHTML(country)}
+
+            </small>
+
+        </div>
+    `;
+
+}
+
+
+/* =====================================================
+   LOAD LOGS
+===================================================== */
+
+async function loadLogs() {
+
+    try {
+
+        const response =
+            await fetch(
+                "/logs",
+                {
+                    headers: {
+                        "Authorization":
+                            "Bearer " + token
+                    }
+                }
+            );
+
+
+        if (!response.ok) {
+
+            if (
+                response.status === 401 ||
+                response.status === 403
+            ) {
+
+                localStorage.removeItem("token");
+
+                window.location.href = "/";
+
+                return;
+
+            }
+
+            throw new Error(
+                "Unable to load logs"
+            );
+
+        }
+
+
+        const logs =
+            await response.json();
+
+
+        renderStats(logs);
+
+        renderEvents(logs);
+
+        renderLocations(logs);
+
+        renderThreatActivity(logs);
+
+        renderRiskDistribution(logs);
+
+        renderLiveFeed(logs);
+
+        updateLastUpdate();
+
+
+    } catch (error) {
+
+        console.error(
+            "Dashboard error:",
+            error
+        );
+
+
+        document
+            .getElementById("eventsTable")
+            .innerHTML = `
+
+                <tr>
+
+                    <td
+                        colspan="7"
+                        class="empty"
+                    >
+
+                        <div class="empty-icon">
+                            ⚠
+                        </div>
+
+                        Unable to load security events.
+
+                    </td>
+
+                </tr>
+
+            `;
+
+    }
+
+}
+
+
+/* =====================================================
+   UPDATE TIME
+===================================================== */
+
+function updateLastUpdate() {
+
+    const now =
+        new Date();
+
+
+    document
+        .getElementById("lastUpdate")
+        .textContent =
+            now.toLocaleTimeString(
+                [],
+                {
+                    hour: "2-digit",
+                    minute: "2-digit",
+                    second: "2-digit",
+                    hour12: false
+                }
+            );
+
+}
+
+
+/* =====================================================
+   STATISTICS
+===================================================== */
+
+function renderStats(logs) {
+
+    const total =
+        logs.length;
+
+
+    const blocked =
+        logs.filter(
+            log =>
+                log.decision === "DENY" ||
+                log.decision === "LOCKED" ||
+                log.decision === "BLOCKED" ||
+                log.decision === "2FA_DENY" ||
+                log.decision === "2FA_BLOCKED"
+        ).length;
+
+
+    const allowed =
+        logs.filter(
+            log =>
+                log.decision === "ALLOW"
+        ).length;
+
+
+    const highest =
+        logs.length
+            ? Math.max(
+                ...logs.map(
+                    log =>
+                        Number(log.risk) || 0
+                )
+            )
+            : 0;
+
+
+    document
+        .getElementById("totalEvents")
+        .textContent =
+            total;
+
+
+    document
+        .getElementById("blockedEvents")
+        .textContent =
+            blocked;
+
+
+    document
+        .getElementById("allowedEvents")
+        .textContent =
+            allowed;
+
+
+    document
+        .getElementById("highestRisk")
+        .textContent =
+            highest;
+
+
+    /*
+       Current server does not expose lockedAccounts
+       or pendingOTPs through /logs.
+
+       Therefore these values are estimated from logs.
+    */
+
+
+    const locked =
+        logs.filter(
+            log =>
+                log.decision === "LOCKED"
+        ).length;
+
+
+    const pending =
+        logs.filter(
+            log =>
+                log.decision === "2FA_REQUIRED"
+        ).length;
+
+
+    document
+        .getElementById("activeLocks")
+        .textContent =
+            locked;
+
+
+    document
+        .getElementById("pending2FA")
+        .textContent =
+            pending;
+
+}
+
+
+/* =====================================================
+   THREAT ACTIVITY
+===================================================== */
+
+function renderThreatActivity(logs) {
+
+    const container =
+        document.getElementById(
+            "attackStats"
+        );
+
+
+    const attacks = {};
+
+
+    logs.forEach(log => {
+
+        const attack =
+            log.attackType || "Normal";
+
+
+        if (
+            attack !== "None" &&
+            attack !== "Normal"
+        ) {
+
+            attacks[attack] =
+                (attacks[attack] || 0) + 1;
+
+        }
+
+    });
+
+
+    const sorted =
+        Object.entries(attacks)
+            .sort(
+                (a, b) =>
+                    b[1] - a[1]
+            )
+            .slice(0, 7);
+
+
+    if (!sorted.length) {
+
+        container.innerHTML = `
+
+            <div class="empty">
+                No threats detected.
+            </div>
+
+        `;
+
+        return;
+
+    }
+
+
+    container.innerHTML =
+        sorted
+        .map(
+            ([attack, count]) => `
+
+                <div class="attack-row">
+
+                    <span class="attack-name">
+
+                        ${escapeHTML(attack)}
+
+                    </span>
+
+                    <span class="attack-count">
+
+                        ${count}
+
+                    </span>
+
+                </div>
+
+            `
+        )
+        .join("");
+
+}
+
+
+/* =====================================================
+   RISK DISTRIBUTION
+===================================================== */
+
+function renderRiskDistribution(logs) {
+
+    const container =
+        document.getElementById(
+            "riskStats"
+        );
+
+
+    const low =
+        logs.filter(
+            log =>
+                Number(log.risk) < 30
+        ).length;
+
+
+    const medium =
+        logs.filter(
+            log => {
+
+                const risk =
+                    Number(log.risk) || 0;
+
+                return (
+                    risk >= 30 &&
+                    risk < 60
+                );
+
+            }
+        ).length;
+
+
+    const high =
+        logs.filter(
+            log => {
+
+                const risk =
+                    Number(log.risk) || 0;
+
+                return (
+                    risk >= 60 &&
+                    risk < 80
+                );
+
+            }
+        ).length;
+
+
+    const critical =
+        logs.filter(
+            log =>
+                Number(log.risk) >= 80
+        ).length;
+
+
+    const total =
+        logs.length || 1;
+
+
+    const lowPercent =
+        Math.round(
+            (low / total) * 100
+        );
+
+
+    const mediumPercent =
+        Math.round(
+            (medium / total) * 100
+        );
+
+
+    const highPercent =
+        Math.round(
+            (high / total) * 100
+        );
+
+
+    const criticalPercent =
+        Math.round(
+            (critical / total) * 100
+        );
+
+
+    container.innerHTML = `
+
+        <div class="risk-row">
+
+            <div class="risk-label">
+
+                <span>Low</span>
+
+                <span>${low}</span>
+
+            </div>
+
+            <div class="risk-track">
+
+                <div
+                    class="risk-progress low"
+                    style="width:${lowPercent}%"
+                ></div>
+
+            </div>
+
+        </div>
+
+
+        <div class="risk-row">
+
+            <div class="risk-label">
+
+                <span>Medium</span>
+
+                <span>${medium}</span>
+
+            </div>
+
+            <div class="risk-track">
+
+                <div
+                    class="risk-progress medium"
+                    style="width:${mediumPercent}%"
+                ></div>
+
+            </div>
+
+        </div>
+
+
+        <div class="risk-row">
+
+            <div class="risk-label">
+
+                <span>High</span>
+
+                <span>${high}</span>
+
+            </div>
+
+            <div class="risk-track">
+
+                <div
+                    class="risk-progress high"
+                    style="width:${highPercent}%"
+                ></div>
+
+            </div>
+
+        </div>
+
+
+        <div class="risk-row">
+
+            <div class="risk-label">
+
+                <span>Critical</span>
+
+                <span>${critical}</span>
+
+            </div>
+
+            <div class="risk-track">
+
+                <div
+                    class="risk-progress critical"
+                    style="width:${criticalPercent}%"
+                ></div>
+
+            </div>
+
+        </div>
+
+    `;
+
+}
+
+
+/* =====================================================
+   LIVE SECURITY FEED
+===================================================== */
+
+function renderLiveFeed(logs) {
+
+    const container =
+        document.getElementById(
+            "liveFeed"
+        );
+
+
+    const recent =
+        [...logs]
+            .reverse()
+            .slice(0, 8);
+
+
+    if (!recent.length) {
+
+        container.innerHTML = `
+
+            <div class="empty">
+
+                No security activity yet.
+
+            </div>
+
+        `;
+
+        return;
+
+    }
+
+
+    container.innerHTML =
+        recent
+        .map(
+            log => {
+
+                const risk =
+                    Number(log.risk) || 0;
+
+
+                const username =
+                    escapeHTML(
+                        log.username ||
+                        "Unknown"
+                    );
+
+
+                const decision =
+                    escapeHTML(
+                        log.decision ||
+                        "UNKNOWN"
+                    );
+
+
+                const attack =
+                    escapeHTML(
+                        log.attackType ||
+                        "None"
+                    );
+
+
+                const time =
+                    new Date(
+                        log.time
+                    ).toLocaleTimeString();
+
+
+                const riskClass =
+                    risk >= 60
+                        ? "high"
+                        : "";
+
+
+                return `
+
+                    <div class="feed-item">
+
+                        <div class="feed-time">
+
+                            ${time}
+
+                        </div>
+
+                        <div class="feed-message">
+
+                            ${username}
+                            ·
+                            ${decision}
+                            ·
+                            ${attack}
+
+                        </div>
+
+                        <div
+                            class="feed-risk ${riskClass}"
+                        >
+
+                            Risk ${risk}/100
+
+                        </div>
+
+                    </div>
+
+                `;
+
+            }
+        )
+        .join("");
+
+}
+
+
+/* =====================================================
+   EVENTS TABLE
+===================================================== */
+
+function renderEvents(logs) {
+
+    const table =
+        document.getElementById(
+            "eventsTable"
+        );
+
+
+    if (!logs.length) {
+
+        table.innerHTML = `
+
+            <tr>
+
+                <td
+                    colspan="7"
+                    class="empty"
+                >
+
+                    <div class="empty-icon">
+                        ◇
+                    </div>
+
+                    No security events recorded yet.
+
+                </td>
+
+            </tr>
+
+        `;
+
+        return;
+
+    }
+
+
+    const sorted =
+        [...logs].reverse();
+
+
+    table.innerHTML =
+        sorted
+        .map(
+            log => {
+
+                const risk =
+                    Number(log.risk) || 0;
+
+
+                const riskWidth =
+                    Math.min(
+                        Math.max(risk, 0),
+                        100
+                    );
+
+
+                let statusClass =
+                    "allow";
+
+
+                if (
+                    log.decision === "DENY" ||
+                    log.decision === "2FA_DENY"
+                ) {
+
+                    statusClass =
+                        "deny";
+
+                }
+
+
+                if (
+                    log.decision === "LOCKED" ||
+                    log.decision === "BLOCKED" ||
+                    log.decision === "2FA_BLOCKED"
+                ) {
+
+                    statusClass =
+                        "locked";
+
+                }
+
+
+                if (
+                    log.decision === "2FA_REQUIRED"
+                ) {
+
+                    statusClass =
+                        "warning";
+
+                }
+
+
+                const decision =
+                    escapeHTML(
+                        log.decision ||
+                        "UNKNOWN"
+                    );
+
+
+                const attack =
+                    escapeHTML(
+                        log.attackType ||
+                        "None"
+                    );
+
+
+                const time =
+                    new Date(
+                        log.time
+                    ).toLocaleString();
+
+
+                return `
+
+                    <tr>
+
+                        <td>
+                            ${time}
+                        </td>
+
+
+                        <td>
+
+                            <span class="user">
+
+                                ${escapeHTML(
+                                    log.username
+                                )}
+
+                            </span>
+
+                        </td>
+
+
+                        <td>
+
+                            <span class="ip">
+
+                                ${escapeHTML(
+                                    log.ip
+                                )}
+
+                            </span>
+
+                        </td>
+
+
+                        <td>
+
+                            ${formatLocation(
+                                log.location
+                            )}
+
+                        </td>
+
+
+                        <td>
+
+                            <div class="risk">
+
+                                <div class="risk-bar">
+
+                                    <div
+                                        class="risk-fill"
+                                        style="
+                                            width:${riskWidth}%;
+                                            background:${getRiskColor(risk)};
+                                        "
+                                    ></div>
+
+                                </div>
+
+                                <span class="risk-number">
+
+                                    ${risk}
+
+                                </span>
+
+                            </div>
+
+                        </td>
+
+
+                        <td>
+
+                            ${attack}
+
+                        </td>
+
+
+                        <td>
+
+                            <span
+                                class="badge ${statusClass}"
+                            >
+
+                                ${decision}
+
+                            </span>
+
+                        </td>
+
+                    </tr>
+
+                `;
+
+            }
+        )
+        .join("");
+
+}
+
+
+/* =====================================================
+   LOGIN LOCATIONS
+===================================================== */
+
+function renderLocations(logs) {
+
+    const container =
+        document.getElementById(
+            "locations"
+        );
+
+
+    const locationLogs =
+        logs
+            .filter(
+                log =>
+                    log.location
+            )
+            .reverse()
+            .slice(0, 5);
+
+
+    if (!locationLogs.length) {
+
+        container.innerHTML = `
+
+            <div class="empty">
+
+                No location data available.
+
+            </div>
+
+        `;
+
+        return;
+
+    }
+
+
+    container.innerHTML =
+        locationLogs
+        .map(
+            log => {
+
+                const location =
+                    log.location;
+
+
+                const city =
+                    location.city ||
+                    "Unknown";
+
+
+                const region =
+                    location.region ||
+                    "Unknown";
+
+
+                const country =
+                    location.country ||
+                    "Unknown";
+
+
+                const risk =
+                    Number(log.risk) || 0;
+
+
+                return `
+
+                    <div class="location-card">
+
+                        <div class="location-top">
+
+                            <div class="location-city">
+
+                                📍
+                                ${escapeHTML(city)}
+
+                            </div>
+
+                            <div class="location-risk">
+
+                                Risk ${risk}
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="location-info">
+
+                            ${escapeHTML(region)}
+
+                            ·
+
+                            ${escapeHTML(country)}
+
+                            <br>
+
+                            IP:
+                            ${escapeHTML(
+                                log.ip
+                            )}
+
+                        </div>
+
+                    </div>
+
+                `;
+
+            }
+        )
+        .join("");
+
+}
+
+
+/* =====================================================
+   LOGOUT
+===================================================== */
+
+function logout() {
+
+    localStorage.removeItem(
+        "token"
+    );
+
+    localStorage.removeItem(
+        "username"
+    );
+
+    window.location.href = "/";
+
+}
+
+
+/* =====================================================
+   INITIAL LOAD
+===================================================== */
+
+loadLogs();
+
+
+/* =====================================================
+   AUTO REFRESH
+===================================================== */
+
+setInterval(
+    loadLogs,
+    10000
+);
+
+</script>
+
+</body>
+</html>
